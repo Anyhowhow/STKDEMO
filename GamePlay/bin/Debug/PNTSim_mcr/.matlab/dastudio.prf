@@ -1,0 +1,51 @@
+#
+#DAStudio Preference File
+#
+
+
+[General]
+MatlabRelease=2014b
+
+[LibraryBrowser]
+LBAlphaPercent4DisabledBlock=40
+LBColorBlocksDescriptionBackground=255 255 255
+LBColorLibraryBlocksBackgroundBot=245 246 247
+LBColorLibraryBlocksBackgroundTop=255 255 255
+LBColorSearchResultsBackgroundBot=245 246 247
+LBColorSearchResultsBackgroundTop=248 249 250
+LBColorSearchResultsDividerBarBot=153 163 190
+LBColorSearchResultsDividerBarTop=183 190 208
+LBFontFamily=Arial
+LBFontSize=8
+LBGeometry4Blocks=9 9 82 12
+LBGeometry4Window=32 64 600 624
+LBIconSize=Compact
+LBLayout=Grid
+LBSearchResults_isTitleElidedMiddle=1
+LBSearchResults_rememberUserHiddenSections=1
+LBSearch_MatchCase=0
+LBSearch_MatchWholeWord=0
+LBSearch_UseRegExp=0
+LBShowBlockDesc=1
+LBTreeSelectionTimeout=111
+LBWindowState=AAAA/wAAAAD9AAAAAgAAAAAAAADAAAACoPwCAAAAAfsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMAEAAAAzAAACoAAAAF0A////AAAAAwAAA23////6/AEAAAAC+wAAABYARABvAGMAawBXAGkAZABnAGUAdAAxAAAAAAAAAANtAAAAUQD////7AAAAFgBEAG8AYwBrAFcAaQBkAGcAZQB0ADIBAAAAAAAAA20AAAAAAAAAAAAAAqcAAAKgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAQAFQAbwBvAGwAQgBhAHIAMwEAAAAAAAAAXwAAAAAAAAAAAAAAEABUAG8AbwBsAEIAYQByADQBAAAAXwAAAw4AAAAAAAAAAA==
+LBWindowVersion=1
+
+[LibraryBrowser2]
+LBGeometry4Window=2229 290 600 550
+LBListWidth=341
+LBRecentBlock0=Three-axis Inertial Measurement Unit
+LBRecentBlock1=6DOF (Quaternion)
+LBRecentName0=aerolibnav/Three-axis Inertial Measurement Unit
+LBRecentName1=aerolib6dof2/6DOF (Quaternion)
+LBRecentPath0=Aerospace Blockset/GNC/Navigation
+LBRecentPath1=Aerospace Blockset/Equations of Motion/6DOF
+LBScaleFactor=1
+LBSearch_MatchCase=0
+LBSearch_MatchWholeWord=0
+LBSearch_UseRegExp=0
+LBTreePopupHeight=500
+LBTreePopupWidth=250
+LBTreeWidth=243
+LBUseCache=1
+

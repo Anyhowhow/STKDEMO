@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52.9167mm" height="23.2833mm"
+ viewBox="0 0 200 88"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffffff" fill-opacity="0" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L200,0 L200,88 L0,88 L0,0z "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip9)" >
+<defs><clipPath id="clip9"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L200,0 L200,88.4615 L0,88.4615 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip10)" >
+<defs><clipPath id="clip10"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2,-2 L102,-2 L102,44 L-2,44 L-2,-2z "/>
+</clipPath></defs></g>
+
+<g fill="#e8d152" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="0.769842" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip10)" >
+<path vector-effect="none" fill-rule="evenodd" d="M0,0 L100,0 L100,42 L0,42 L0,0z "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip10)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip10)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip11)" >
+<defs><clipPath id="clip11"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L100,0 L100,42 L0,42 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<defs><clipPath id="clip12"><path vector-effect="none" fill-rule="evenodd" d="M500,19 L600,19 L600,61 L500,61 L500,19z "/>
+</clipPath></defs><polyline fill="none" vector-effect="none" points="503,52 504,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="504,51 505,58 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="505,58 506,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="506,50 507,47 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="507,47 508,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="508,51 509,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="509,53 510,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="510,50 511,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="511,54 512,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="512,53 513,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="513,53 514,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="514,48 515,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="515,50 516,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="516,49 517,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="517,50 518,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="518,52 519,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="519,49 520,55 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="520,55 521,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="521,52 522,57 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="522,57 523,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="523,50 524,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="524,49 525,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="525,54 526,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="526,54 527,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="527,54 528,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="528,53 529,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="529,52 530,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="530,49 531,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="531,54 531,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="531,48 532,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="532,50 533,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="533,49 534,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="534,50 535,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="535,48 536,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="536,52 537,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="537,50 538,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="538,53 539,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="539,49 540,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="540,54 541,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="541,52 542,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="542,52 543,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="543,51 544,56 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="544,56 545,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="545,49 546,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="546,51 547,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="547,53 548,55 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="548,55 549,45 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="549,45 550,22 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="550,22 550,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="550,53 551,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="551,50 552,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="552,53 553,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="553,51 554,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="554,53 555,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="555,50 556,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="556,51 557,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="557,51 558,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="558,54 559,47 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="559,47 560,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="560,51 561,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="561,52 562,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="562,51 563,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="563,53 564,47 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="564,47 565,55 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="565,55 566,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="566,52 567,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="567,49 568,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="568,54 569,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="569,53 569,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="569,51 570,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="570,54 571,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="571,48 572,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="572,54 573,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="573,53 574,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="574,52 575,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="575,50 576,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="576,49 577,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="577,51 578,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="578,53 579,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="579,53 580,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="580,51 581,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="581,50 582,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="582,48 583,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="583,48 584,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="584,52 585,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="585,54 586,52 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="586,52 587,51 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="587,51 588,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="588,54 588,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="588,53 589,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="589,53 590,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="590,54 591,53 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="591,53 592,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="592,48 593,49 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="593,49 594,48 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="594,48 595,54 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="595,54 596,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="596,50 597,50 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="503,35 504,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="504,35 505,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="505,35 506,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="506,35 507,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="507,35 508,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="508,35 509,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="509,35 510,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="510,35 511,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="511,35 512,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="512,35 513,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="513,35 514,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="514,35 515,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="515,35 516,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="516,35 517,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="517,35 518,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="518,35 519,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="519,35 520,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="520,35 521,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="521,35 522,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="522,35 523,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="523,35 524,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="524,35 525,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="525,35 526,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="526,35 527,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="527,35 528,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="528,35 529,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="529,35 530,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="530,35 531,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="531,35 532,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="532,35 533,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="533,35 534,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="534,35 535,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="535,35 536,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="536,35 537,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="537,35 538,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="538,35 539,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="539,35 540,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="540,35 541,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="541,35 542,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="542,35 543,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="543,35 544,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="544,35 545,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="545,35 546,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="546,35 547,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="547,35 548,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="548,35 549,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="549,35 550,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="550,35 551,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="551,35 552,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="552,35 553,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="553,35 554,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="554,35 555,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="555,35 556,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="556,35 557,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="557,35 558,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="558,35 559,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="559,35 560,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="560,35 561,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="561,35 562,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="562,35 563,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="563,35 564,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="564,35 565,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="565,35 566,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="566,35 567,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="567,35 568,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="568,35 569,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="569,35 570,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="570,35 571,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="571,35 572,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="572,35 573,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="573,35 574,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="574,35 575,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="575,35 576,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="576,35 577,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="577,35 578,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="578,35 579,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="579,35 580,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="580,35 581,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="581,35 582,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="582,35 583,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="583,35 584,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="584,35 585,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="585,35 586,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="586,35 587,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="587,35 588,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="588,35 589,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="589,35 590,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="590,35 591,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="591,35 592,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="592,35 593,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="593,35 594,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="594,35 595,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="595,35 596,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip12)" >
+<polyline fill="none" vector-effect="none" points="596,35 597,35 " />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.17195,0,0,2.14669,-956.731,-31.7308)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip13)" >
+<defs><clipPath id="clip13"><path vector-effect="none" fill-rule="evenodd" d="M-2,-2 L102,-2 L102,44 L-2,44 L-2,-2z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip13)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip13)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip13)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="0.769842" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip13)" >
+<path vector-effect="none" fill-rule="evenodd" d="M0,0 L100,0 L100,42 L0,42 L0,0z "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,3.84615,3.84615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip13)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,100,88.4615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip14)" >
+<defs><clipPath id="clip14"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-52,-46 L52,-46 L52,0 L-52,0 L-52,-46z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.92308,0,0,1.92308,100,88.4615)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip14)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip15)" >
+<defs><clipPath id="clip15"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L200,0 L200,88 L0,88 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip16)" >
+<defs><clipPath id="clip16"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L1,0 L1,1 L0,1 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

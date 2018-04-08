@@ -1,0 +1,28 @@
+/* XPM */
+static char *resize[] = {
+/* width height num_colors chars_per_pixel */
+"    16    16        5            1",
+/* colors */
+". c #ff0a3e",
+"# c #df0000",
+"a c #9b9b9b",
+"b c #000080",
+"c c #000000",
+/* pixels */
+"aaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaa",
+"aaaaaaa#######aa",
+"aaaaaaa#.....caa",
+"aaaaaaa#.....caa",
+"aaaaaaaaaaa..caa",
+"aaaabbbbbba..caa",
+"aaaaabbbbbacccaa",
+"aaaaaabbbbaaaaaa",
+"aaaaabbbbbaaaaaa",
+"aaaaabbabbaaaaaa",
+"aa###aaaabaaaaaa",
+"aa#.caaaaaaaaaaa",
+"aacccaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaa"
+};

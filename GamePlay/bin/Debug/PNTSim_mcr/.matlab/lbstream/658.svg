@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52.9167mm" height="50.5354mm"
+ viewBox="0 0 200 191"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffffff" fill-opacity="0" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L200,0 L200,191 L0,191 L0,0z "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip922)" >
+<defs><clipPath id="clip922"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L200,0 L200,191.429 L0,191.429 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip923)" >
+<defs><clipPath id="clip923"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2,-2 L68,-2 L68,65 L-2,65 L-2,-2z "/>
+</clipPath></defs></g>
+
+<g fill="#f0f2f9" fill-opacity="1" stroke="none" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip923)" >
+<path vector-effect="none" fill-rule="evenodd" d="M0,0 L66,0 L66,63 L0,63 L0,0z "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip923)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip923)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip924)" >
+<defs><clipPath id="clip924"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L66,0 L66,63 L0,63 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,-625.714,-68.5714)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip925)" >
+<defs><clipPath id="clip925"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M221,26 L287,26 L287,89 L221,89 L221,26z "/>
+</clipPath></defs><image x="221" y="26" width="66" height="63" preserveAspectRatio="none" xlink:href="data:image/png;base64,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" />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.94931,0,0,2.98137,-625.714,-68.5714)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip926)" >
+<defs><clipPath id="clip926"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2,-2 L68,-2 L68,65 L-2,65 L-2,-2z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip926)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip926)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip926)" >
+</g>
+
+<g fill="none" stroke="none" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip926)" >
+<path vector-effect="none" fill-rule="evenodd" d="M0,0 L66,0 L66,63 L0,63 L0,0z "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,5.71429,5.71429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip926)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,100,191.429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip927)" >
+<defs><clipPath id="clip927"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-35,-67 L35,-67 L35,0 L-35,0 L-35,-67z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(2.85714,0,0,2.85714,100,191.429)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip927)" >
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip928)" >
+<defs><clipPath id="clip928"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L200,0 L200,191 L0,191 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+clip-path="url(#clip929)" >
+<defs><clipPath id="clip929"><path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,0 L1,0 L1,1 L0,1 L0,0z "/>
+</clipPath></defs></g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Helvetica" font-size="16" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

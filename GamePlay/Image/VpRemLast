@@ -1,0 +1,27 @@
+/* XPM */
+static char * VpRemLast[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"16 16 5 1 0 0",
+/* colors */
+" 	s iconGray4	m white	c #949494949494",
+".	s iconColor1	m black	c black",
+"X	s iconColor2	m white	c white",
+"o	c #000000008080",
+"O	c #0505CACAFFFF",
+/* pixels */
+"                ",
+"                ",
+"   ..........   ",
+"  .XX.oooo.XX.  ",
+"  XX.oOOOOooXX  ",
+"  XX.OO..OOoXX  ",
+"  XX.OO.XXOoXX  ",
+"   XX.OOXXoXX   ",
+"    XXoOOoXX    ",
+"     XXXXXX     ",
+"                ",
+"                ",
+"                ",
+"          XXXX  ",
+"                ",
+"                "};

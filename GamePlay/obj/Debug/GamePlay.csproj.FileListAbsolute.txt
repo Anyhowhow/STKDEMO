@@ -1,0 +1,16 @@
+E:\MyProject\GamePlay\GamePlay\bin\Debug\GamePlay.exe.config
+E:\MyProject\GamePlay\GamePlay\bin\Debug\GamePlay.exe
+E:\MyProject\GamePlay\GamePlay\bin\Debug\GamePlay.pdb
+E:\MyProject\GamePlay\GamePlay\obj\Debug\GamePlay.csprojResolveAssemblyReference.cache
+E:\MyProject\GamePlay\GamePlay\obj\Debug\GamePlay.Properties.Resources.resources
+E:\MyProject\GamePlay\GamePlay\obj\Debug\GamePlay.csproj.GenerateResource.Cache
+E:\MyProject\GamePlay\GamePlay\obj\Debug\GamePlay.exe
+E:\MyProject\GamePlay\GamePlay\obj\Debug\GamePlay.pdb
+E:\MyProject\GamePlay\GamePlay\bin\Debug\RACoN.dll
+E:\MyProject\GamePlay\GamePlay\bin\Debug\RACoN.RTILayer.dll
+E:\MyProject\GamePlay\GamePlay\bin\Debug\RtiLayerNative.dll
+E:\MyProject\GamePlay\GamePlay\bin\Debug\AGI.STKX.Interop.dll
+E:\MyProject\GamePlay\GamePlay\bin\Debug\AxInterop.AGI.STKX.dll
+E:\MyProject\GamePlay\GamePlay\obj\Debug\AxInterop.AGI.STKX.dll
+E:\MyProject\GamePlay\GamePlay\obj\Debug\GamePlay.csproj.ResolveComReference.cache
+E:\MyProject\GamePlay\GamePlay\obj\Debug\STK_demonstration.MFrm.resources

@@ -1,0 +1,1300 @@
+(FED
+(Federation FederationName)
+(FEDversion v1.3)
+ (spaces 
+ )
+ (objects 
+    (class ObjectRoot 
+       (attribute privilegeToDelete  reliable timestamp)
+       (class RTIprivate)
+ (class BaseEntity
+     (attribute AccelerationVector best_effort receive)
+     (attribute AngularVelocityVector best_effort receive)
+     (attribute DeadReckoningAlgorithm best_effort receive)
+     (attribute EntityType best_effort receive)
+     (attribute EntityIdentifier best_effort receive)
+     (attribute IsFrozen best_effort receive)
+     (attribute Orientation best_effort receive)
+     (attribute WorldLocation best_effort receive)
+     (attribute VelocityVector best_effort receive)
+ (class EnvironmentalEntity
+     (attribute OpacityCode best_effort receive)
+ )
+ (class PhysicalEntity
+     (attribute AlternateEntityType best_effort receive)
+     (attribute ArticulatedParametersArray best_effort receive)
+     (attribute CamouflageType best_effort receive)
+     (attribute DamageState best_effort receive)
+     (attribute EngineSmokeOn best_effort receive)
+     (attribute FirePowerDisabled best_effort receive)
+     (attribute FlamesPresent best_effort receive)
+     (attribute ForceIdentifier best_effort receive)
+     (attribute HasAmmunitionSupplyCap best_effort receive)
+     (attribute HasFuelSupplyCap best_effort receive)
+     (attribute HasRecoveryCap best_effort receive)
+     (attribute HasRepairCap best_effort receive)
+     (attribute Immobilized best_effort receive)
+     (attribute IsConcealed best_effort receive)
+     (attribute Marking best_effort receive)
+     (attribute PowerPlantOn best_effort receive)
+     (attribute SmokePlumePresent best_effort receive)
+     (attribute TentDeployed best_effort receive)
+     (attribute TrailingEffectsCode best_effort receive)
+ (class Platform
+     (attribute AfterburnerOn best_effort receive)
+     (attribute AntiCollisionLightsOn best_effort receive)
+     (attribute BlackOutBrakeLightsOn best_effort receive)
+     (attribute BlackOutLightsOn best_effort receive)
+     (attribute BrakeLightsOn best_effort receive)
+     (attribute FormationLightsOn best_effort receive)
+     (attribute HatchState best_effort receive)
+     (attribute HeadLightsOn best_effort receive)
+     (attribute InteriorLightsOn best_effort receive)
+     (attribute LandingLightsOn best_effort receive)
+     (attribute LauncherRaised best_effort receive)
+     (attribute NavigationLightsOn best_effort receive)
+     (attribute RampDeployed best_effort receive)
+     (attribute RunningLightsOn best_effort receive)
+     (attribute SpotLightsOn best_effort receive)
+     (attribute TailLightsOn best_effort receive)
+ (class Aircraft
+ )
+ (class AmphibiousVehicle
+ )
+ (class GroundVehicle
+ )
+ (class MultiDomainPlatform
+ )
+ (class Spacecraft
+ )
+ (class SubmersibleVessel
+ )
+ (class SurfaceVessel
+ )
+ )
+ (class Lifeform
+     (attribute FlashLightsOn best_effort receive)
+     (attribute StanceCode best_effort receive)
+     (attribute PrimaryWeaponState best_effort receive)
+     (attribute SecondaryWeaponState best_effort receive)
+ (class Human
+ )
+ (class NonHuman
+ )
+ )
+ (class CulturalFeature
+     (attribute ExternalLightsOn best_effort receive)
+     (attribute InternalHeatSourceOn best_effort receive)
+     (attribute InternalLightsOn best_effort receive)
+ )
+ (class Expendables
+ )
+ (class Munition
+     (attribute LauncherFlashPresent best_effort receive)
+ )
+ (class Radio
+ )
+ (class Sensor
+     (attribute AntennaRaised best_effort receive)
+     (attribute BlackoutLightsOn best_effort receive)
+     (attribute LightsOn best_effort receive)
+     (attribute InteriorLightsOn best_effort receive)
+     (attribute MissionKill best_effort receive)
+ )
+ (class Supplies
+ )
+ )
+ )
+ (class EmbeddedSystem
+     (attribute EntityIdentifier best_effort receive)
+     (attribute HostObjectIdentifier best_effort receive)
+     (attribute RelativePosition best_effort receive)
+ (class Designator
+     (attribute CodeName best_effort receive)
+     (attribute DesignatedObjectIdentifier best_effort receive)
+     (attribute DesignatorCode best_effort receive)
+     (attribute DesignatorEmissionWavelength best_effort receive)
+     (attribute DesignatorOutputPower best_effort receive)
+     (attribute DesignatorSpotLocation best_effort receive)
+     (attribute DeadReckoningAlgorithm best_effort receive)
+     (attribute RelativeSpotLocation best_effort receive)
+     (attribute SpotLinearAccelerationVector best_effort receive)
+ )
+ (class EmitterSystem
+     (attribute EmitterFunctionCode best_effort receive)
+     (attribute EmitterType best_effort receive)
+     (attribute EmitterIndex best_effort receive)
+     (attribute EventIdentifier best_effort receive)
+ )
+ (class RadioReceiver
+     (attribute RadioIndex best_effort receive)
+     (attribute ReceivedPower best_effort receive)
+     (attribute ReceivedTransmitterIdentifier best_effort receive)
+     (attribute ReceiverOperationalStatus best_effort receive)
+ )
+ (class RadioTransmitter
+     (attribute AntennaPatternData best_effort receive)
+     (attribute CryptographicMode best_effort receive)
+     (attribute CryptoSystem best_effort receive)
+     (attribute EncryptionKeyIdentifier best_effort receive)
+     (attribute Frequency best_effort receive)
+     (attribute FrequencyBandwidth best_effort receive)
+     (attribute FrequencyHopInUse best_effort receive)
+     (attribute ModulationParameters best_effort receive)
+     (attribute PsuedoNoiseSpectrumInUse best_effort receive)
+     (attribute RadioIndex best_effort receive)
+     (attribute RadioInputSource best_effort receive)
+     (attribute RadioSystemType best_effort receive)
+     (attribute RFModulationSystemType best_effort receive)
+     (attribute RFModulationType best_effort receive)
+     (attribute TimeHopInUse best_effort receive)
+     (attribute TransmittedPower best_effort receive)
+     (attribute TransmitterOperationalStatus best_effort receive)
+     (attribute WorldLocation best_effort receive)
+ )
+ )
+ (class EmitterBeam
+     (attribute BeamAzimuthCenter best_effort receive)
+     (attribute BeamAzimuthSweep best_effort receive)
+     (attribute BeamElevationCenter best_effort receive)
+     (attribute BeamElevationSweep best_effort receive)
+     (attribute BeamFunctionCode best_effort receive)
+     (attribute BeamIdentifier best_effort receive)
+     (attribute BeamParameterIndex best_effort receive)
+     (attribute EffectiveRadiatedPower best_effort receive)
+     (attribute EmissionFrequency best_effort receive)
+     (attribute EmitterSystemIdentifier best_effort receive)
+     (attribute EventIdentifier best_effort receive)
+     (attribute FrequencyRange best_effort receive)
+     (attribute PulseRepetitionFrequency best_effort receive)
+     (attribute PulseWidth best_effort receive)
+     (attribute SweepSynch best_effort receive)
+ (class RadarBeam
+     (attribute HighDensityTrack best_effort receive)
+     (attribute TrackObjectIdentifiers best_effort receive)
+ )
+ (class JammerBeam
+     (attribute JammingModeSequence best_effort receive)
+     (attribute JammedObjectIdentifiers best_effort receive)
+     (attribute HighDensityJam best_effort receive)
+ )
+ )
+ (class Manager
+ (class Federation
+     (attribute FederationName reliable receive)
+     (attribute FederatesInFederation reliable receive)
+     (attribute RTIversion reliable receive)
+     (attribute FEDid reliable receive)
+     (attribute LastSaveName reliable receive)
+     (attribute LastSaveTime reliable receive)
+     (attribute NextSaveName reliable receive)
+     (attribute NextSaveTime reliable receive)
+ )
+ (class Federate
+     (attribute FederateHandle reliable receive)
+     (attribute FederateType reliable receive)
+     (attribute FederateHost reliable receive)
+     (attribute RTIversion reliable receive)
+     (attribute FEDid reliable receive)
+     (attribute TimeConstrained reliable receive)
+     (attribute TimeRegulating reliable receive)
+     (attribute AsynchronousDelivery reliable receive)
+     (attribute FederateState reliable receive)
+     (attribute TimeManagerState reliable receive)
+     (attribute FederateTime reliable receive)
+     (attribute Lookahead reliable receive)
+     (attribute LBTS reliable receive)
+     (attribute MinNextEventTime reliable receive)
+     (attribute ROlength reliable receive)
+     (attribute TSOlength reliable receive)
+     (attribute ReflectionsReceived reliable receive)
+     (attribute UpdatesSent reliable receive)
+     (attribute InteractionsReceived reliable receive)
+     (attribute InteractionsSent reliable receive)
+     (attribute ObjectsOwned reliable receive)
+     (attribute ObjectsUpdated reliable receive)
+     (attribute ObjectsReflected reliable receive)
+ )
+ )
+ ;; user object classes here
+    )
+)
+ (interactions 
+    (class InteractionRoot  reliable timestamp
+       (class RTIprivate  reliable timestamp)
+  (class Acknowledge best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter AcknowledgeFlag)
+      (parameter ResponseFlag)
+  )
+
+  (class ActionRequest best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter ActionRequestCode)
+      (parameter FixedDatums)
+      (parameter VariableDatumSet)
+  )
+
+  (class ActionResponse best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter RequestStatus)
+      (parameter FixedDatums)
+      (parameter VariableDatumSet)
+  )
+
+  (class ActionRequestToObject best_effort receive
+     (parameter ObjectIdentifiers)
+      (parameter ActionRequestCode)
+  )
+
+  (class ActionResponseFromObject best_effort receive
+     (parameter ActionResult)
+  )
+
+  (class AttributeChangeRequest best_effort receive
+     (parameter ObjectIdentifiers)
+      (parameter AttributeValueSet)
+  )
+
+  (class AttributeChangeResult best_effort receive
+     (parameter ObjectIdentifier)
+      (parameter AttributeChangeResult)
+      (parameter AttributeValueSet)
+  )
+
+  (class Collision best_effort receive
+     (parameter CollidingObjectIdentifier)
+      (parameter IssuingObjectMass)
+      (parameter IssuingObjectVelocityVector)
+      (parameter CollisionType)
+      (parameter CollisionLocation)
+      (parameter EventIdentifier)
+      (parameter IssuingObjectIdentifier)
+  )
+
+  (class Comment best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter VariableDatumSet)
+  )
+
+  (class CreateObjectRequest best_effort receive
+     (parameter ObjectClass)
+      (parameter AttributeValueSet)
+      (parameter RequestIdentifier)
+  )
+
+  (class CreateObjectResult best_effort receive
+     (parameter CreateObjectResult)
+      (parameter RequestIdentifier)
+  )
+
+  (class CreateEntity best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+  )
+
+  (class Data best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter FixedDatums)
+      (parameter VariableDatumSet)
+  )
+
+  (class DataQuery best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter TimeInterval)
+      (parameter FixedDatumIdentifiers)
+      (parameter VariableDatumIdentifiers)
+  )
+
+  (class EventReport best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter EventType)
+      (parameter FixedDatums)
+      (parameter VariableDatumSet)
+  )
+
+  (class MunitionDetonation best_effort receive
+     (parameter ArticulatedPartData)
+      (parameter DetonationLocation)
+      (parameter DetonationResultCode)
+      (parameter EventIdentifier)
+      (parameter FiringObjectIdentifier)
+      (parameter FinalVelocityVector)
+      (parameter FuseType)
+      (parameter MunitionObjectIdentifier)
+      (parameter MunitionType)
+      (parameter QuantityFired)
+      (parameter RateOfFire)
+      (parameter RelativeDetonationLocation)
+      (parameter TargetObjectIdentifier)
+      (parameter WarheadType)
+  )
+
+  (class RadioSignal best_effort receive
+  (class ApplicationSpecificRadioSignal best_effort receive
+     (parameter HostRadioIndex)
+      (parameter DataRate)
+      (parameter SignalDataLength)
+      (parameter SignalData)
+      (parameter TacticalDataLinkType)
+      (parameter TDLMessageCount)
+      (parameter UserProtocolID)
+  )
+
+  (class DatabaseIndexRadioSignal best_effort receive
+     (parameter HostRadioIndex)
+      (parameter DatabaseIndex)
+      (parameter Duration)
+      (parameter StartOffset)
+      (parameter TacticalDataLinkType)
+      (parameter TDLMessageCount)
+  )
+
+  (class EncodedAudioRadioSignal best_effort receive
+     (parameter HostRadioIndex)
+      (parameter TransmitterSignalEncodingType)
+      (parameter SignalSampleRate)
+      (parameter SampleCount)
+      (parameter SignalDataLength)
+      (parameter SignalData)
+  )
+
+  (class RawBinaryRadioSignal best_effort receive
+     (parameter HostRadioIndex)
+      (parameter DataRate)
+      (parameter SignalDataLength)
+      (parameter SignalData)
+      (parameter TacticalDataLinkType)
+      (parameter TDLMessageCount)
+  )
+
+ )
+
+  (class RemoveObjectRequest best_effort receive
+     (parameter ObjectIdentifiers)
+      (parameter RequestIdentifier)
+  )
+
+  (class RemoveObjectResult best_effort receive
+     (parameter RemoveObjectResult)
+      (parameter RequestIdentifier)
+  )
+
+  (class RemoveEntity best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+  )
+
+  (class RepairComplete best_effort receive
+     (parameter ReceivingObject)
+      (parameter RepairingObject)
+      (parameter RepairType)
+  )
+
+  (class RepairResponse best_effort receive
+     (parameter ReceivingObject)
+      (parameter RepairingObject)
+      (parameter RepairResultCode)
+  )
+
+  (class ResupplyCancel best_effort receive
+     (parameter ReceivingObject)
+      (parameter SupplyingObject)
+  )
+
+  (class ResupplyOffer best_effort receive
+     (parameter ReceivingObject)
+      (parameter SupplyingObject)
+      (parameter SuppliesData)
+  )
+
+  (class ResupplyReceived best_effort receive
+     (parameter ReceivingObject)
+      (parameter SupplyingObject)
+      (parameter SuppliesData)
+  )
+
+  (class ServiceRequest best_effort receive
+     (parameter RequestingObject)
+      (parameter ServicingObject)
+      (parameter ServiceType)
+      (parameter SuppliesData)
+  )
+
+  (class SetData best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter FixedDatums)
+      (parameter VariableDatumSet)
+  )
+
+  (class StartResume best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter RealWorldTime)
+      (parameter SimulationTime)
+  )
+
+  (class StopFreeze best_effort receive
+     (parameter OriginatingEntity)
+      (parameter ReceivingEntity)
+      (parameter RequestIdentifier)
+      (parameter RealWorldTime)
+      (parameter Reason)
+      (parameter ReflectValues)
+      (parameter RunInternalSimulationClock)
+      (parameter UpdateAttributes)
+  )
+
+  (class WeaponFire best_effort receive
+     (parameter EventIdentifier)
+      (parameter FireControlSolutionRange)
+      (parameter FireMissionIndex)
+      (parameter FiringLocation)
+      (parameter FiringObjectIdentifier)
+      (parameter FuseType)
+      (parameter InitialVelocityVector)
+      (parameter MunitionObjectIdentifier)
+      (parameter MunitionType)
+      (parameter QuantityFired)
+      (parameter RateOfFire)
+      (parameter TargetObjectIdentifier)
+      (parameter WarheadType)
+  )
+
+  (class Manager reliable receive
+  (class Federate reliable receive
+     (parameter Federate)
+   (class Request reliable receive
+  (class RequestPublications reliable receive
+ )
+
+  (class RequestSubscriptions reliable receive
+ )
+
+  (class RequestObjectsOwned reliable receive
+ )
+
+  (class RequestObjectsUpdated reliable receive
+ )
+
+  (class RequestObjectsReflected reliable receive
+ )
+
+  (class RequestUpdatesSent reliable receive
+ )
+
+  (class RequestInteractionsSent reliable receive
+ )
+
+  (class RequestReflectionsReceived reliable receive
+ )
+
+  (class RequestInteractionsReceived reliable receive
+ )
+
+  (class RequestObjectInformation reliable receive
+     (parameter ObjectInstance)
+  )
+
+ )
+
+  (class Report reliable receive
+  (class ReportObjectPublication reliable receive
+     (parameter NumberOfClasses)
+      (parameter ObjectClass)
+      (parameter AttributeList)
+  )
+
+  (class ReportObjectSubscription reliable receive
+     (parameter NumberOfClasses)
+      (parameter ObjectClass)
+      (parameter Active)
+      (parameter AttributeList)
+  )
+
+  (class ReportInteractionPublication reliable receive
+     (parameter InteractionClassList)
+  )
+
+  (class ReportInteractionSubscription reliable receive
+     (parameter InteractionClassList)
+  )
+
+  (class ReportObjectsOwned reliable receive
+     (parameter ObjectCounts)
+  )
+
+  (class ReportObjectsUpdated reliable receive
+     (parameter ObjectCounts)
+  )
+
+  (class ReportObjectsReflected reliable receive
+     (parameter ObjectCounts)
+  )
+
+  (class ReportUpdatesSent reliable receive
+     (parameter TransportationType)
+      (parameter UpdateCounts)
+  )
+
+  (class ReportReflectionsReceived reliable receive
+     (parameter TransportationType)
+      (parameter ReflectCounts)
+  )
+
+  (class ReportInteractionsSent reliable receive
+     (parameter TransportationType)
+      (parameter InteractionCounts)
+  )
+
+  (class ReportInteractionsReceived reliable receive
+     (parameter TransportationType)
+      (parameter InteractionCounts)
+  )
+
+  (class ReportObjectInformation reliable receive
+     (parameter ObjectInstance)
+      (parameter OwnedAttributeList)
+      (parameter RegisteredClass)
+      (parameter KnownClass)
+  )
+
+  (class Alert reliable receive
+     (parameter AlertSeverity)
+      (parameter AlertDescription)
+      (parameter AlertID)
+  )
+
+  (class ReportServiceInvocation reliable receive
+     (parameter Service)
+      (parameter Initiator)
+      (parameter SuccessIndicator)
+      (parameter SuppliedArgument1)
+      (parameter SuppliedArgument2)
+      (parameter SuppliedArgument3)
+      (parameter SuppliedArgument4)
+      (parameter SuppliedArgument5)
+      (parameter ReturnedArgument)
+      (parameter ExceptionDescription)
+      (parameter ExceptionID)
+  )
+
+ )
+
+  (class Adjust reliable receive
+  (class SetTiming reliable receive
+     (parameter ReportPeriod)
+  )
+
+  (class ModifyAttributeState reliable receive
+     (parameter ObjectInstance)
+      (parameter Attribute)
+      (parameter AttributeState)
+  )
+
+  (class SetServiceReporting reliable receive
+     (parameter ReportingState)
+  )
+
+  (class SetExceptionLogging reliable receive
+     (parameter LoggingState)
+  )
+
+ )
+
+  (class Service reliable receive
+  (class ResignFederationExecution reliable receive
+     (parameter ResignAction)
+  )
+
+  (class SynchronizationPointAchieved reliable receive
+     (parameter Label)
+  )
+
+  (class FederateSaveBegun reliable receive
+ )
+
+  (class FederateSaveComplete reliable receive
+     (parameter SuccessIndicator)
+  )
+
+  (class FederateRestoreComplete reliable receive
+     (parameter SuccessIndicator)
+  )
+
+  (class PublishObjectClass reliable receive
+     (parameter ObjectClass)
+      (parameter AttributeList)
+  )
+
+  (class UnpublishObjectClass reliable receive
+     (parameter ObjectClass)
+  )
+
+  (class PublishInteractionClass reliable receive
+     (parameter InteractionClass)
+  )
+
+  (class UnpublishInteractionClass reliable receive
+     (parameter InteractionClass)
+  )
+
+  (class SubscribeObjectClassAttributes reliable receive
+     (parameter ObjectClass)
+      (parameter AttributeList)
+      (parameter Active)
+  )
+
+  (class UnsubscribeObjectClass reliable receive
+     (parameter ObjectClass)
+  )
+
+  (class SubscribeInteractionClass reliable receive
+     (parameter InteractionClass)
+      (parameter Active)
+  )
+
+  (class UnsubscribeInteractionClass reliable receive
+     (parameter InteractionClass)
+  )
+
+  (class DeleteObjectInstance reliable receive
+     (parameter ObjectInstance)
+      (parameter Tag)
+      (parameter FederationTime)
+  )
+
+  (class LocalDeleteObjectInstance reliable receive
+     (parameter ObjectInstance)
+  )
+
+  (class ChangeAttributeTransportationType reliable receive
+     (parameter ObjectInstance)
+      (parameter AttributeList)
+      (parameter TransportationType)
+  )
+
+  (class ChangeAttributeOrderType reliable receive
+     (parameter ObjectInstance)
+      (parameter AttributeList)
+      (parameter OrderingType)
+  )
+
+  (class ChangeInteractionTransportationType reliable receive
+     (parameter InteractionClass)
+      (parameter TransportationType)
+  )
+
+  (class ChangeInteractionOrderType reliable receive
+     (parameter InteractionClass)
+      (parameter OrderingType)
+  )
+
+  (class UnconditionalAttributeOwnershipDivestiture reliable receive
+     (parameter ObjectInstance)
+      (parameter AttributeList)
+  )
+
+  (class EnableTimeRegulation reliable receive
+     (parameter FederationTime)
+      (parameter Lookahead)
+  )
+
+  (class DisableTimeRegulation reliable receive
+ )
+
+  (class EnableTimeConstrained reliable receive
+ )
+
+  (class DisableTimeConstrained reliable receive
+ )
+
+  (class EnableAsynchronousDelivery reliable receive
+ )
+
+  (class DisableAsynchronousDelivery reliable receive
+ )
+
+  (class ModifyLookahead reliable receive
+     (parameter Lookahead)
+  )
+
+  (class TimeAdvanceRequest reliable receive
+     (parameter FederationTime)
+  )
+
+  (class TimeAdvanceRequestAvailable reliable receive
+     (parameter FederationTime)
+  )
+
+  (class NextEventRequest reliable receive
+     (parameter FederationTime)
+  )
+
+  (class NextEventRequestAvailable reliable receive
+     (parameter FederationTime)
+  )
+
+  (class FlushQueueRequest reliable receive
+     (parameter FederationTime)
+  )
+
+ )        
+
+ )
+
+ )
+ ;;  user interaction classes here
+;; (控制台)启动仿真（启动仿真交互类最好在初始化仿真完成Qualnet完全加入联邦之后才发送）
+      (class StartQualnet reliable receive
+        (parameter qualnet_ready)
+		(parameter ScenarioIndex)
+      )
+
+;;20171207 modified gf
+;;(控制台)仿真模式配置
+	  (class SimulationType reliable timestamp
+		(parameter SimMode)		;;4种规划模式
+                                ;;中继模式(用户站-用户站)EFR
+                                ;;单一模式(用户站-信关站)EFS
+                                ;;星间链规划模式(动态星座构型任务规划搜索模式)ISC
+                                ;;星间链路由模式(13*12*6 星座构型动态路由模式)不需要任务规划端参与ISCDR
+	  )
+;;(控制台)纯软件业务配置
+	  (class ServiceConfig reliable timestamp
+		(parameter ServiceType);;CBR, FTP...
+		(parameter StartTime)
+		(parameter TimeDuration)
+		(parameter SouNode)
+		(parameter DesNode)
+
+      )
+
+;;(控制台)半物理模拟子网参数配置
+	  (class SemiPhysicalParameter reliable timestamp
+		(parameter SemiStartTime)
+		(parameter SemiTimeDuration)
+		(parameter SemiUser1Node)
+		(parameter SemiUser1MappingIP)
+		(parameter SemiUser2Node)
+		(parameter SemiUser2MappingIP)
+		(parameter SemiServer1Node)
+		(parameter SemiServer1MappingIP)
+		(parameter SemiServer2Node)
+		(parameter SemiServer2MappingIP)
+      )
+;;(控制台)半物理无线上网配置（仿真辅助端接收）
+	  (class InternetWiFi reliable timestamp
+		(parameter WifiStartTime)
+		(parameter WifiTimeDuration)
+	    (parameter InternetGateName) ;;string 网关节点名字
+        (parameter WifiApname);;string 热点WiFi节点名字
+        (parameter WifiApIP);;string 热点WiFi节点IP地址
+      )
+;;20171206 modified xyt end
+
+	  ;; start stk connect module class
+	  (class StkConnect reliable timestamp
+		(parameter HostIp)
+		(parameter PortNum)
+      )
+;;20171210 send demonstration sccene type     by gf
+       (class DemoScenType reliable timestamp
+	     (parameter ScenType)
+		                     ;;Type1 单一模式，纯软件，YH1-XG8，FTP，10分钟
+                             ;;Type2 中继模式，纯软件，YH6-YH9，FTP，10分钟
+                             ;;Type3 仿真单元星间路由，纯软件，YH1-YH5，10分钟
+                             ;;Type4 任务规划星间路由模式，半物理，RS142-XG11 & RS106- XG12，FTP，16分钟
+        )
+		 
+;; (控制台)start stk scenario creating module class
+;;福星控制台
+	  (class StkScenario reliable timestamp
+		(parameter ScenarioName)
+		(parameter StartTime)
+		(parameter StopTime)
+		(parameter StepTime)
+		(parameter SatelliteAltitude)
+		(parameter OrbitalInclination)
+		(parameter RightAscensionOfAscendingNode)
+		(parameter OrbitalNumber)
+		(parameter InPlaneSatelliteNumber)
+		(parameter PhaseParameters)
+		(parameter RAANSpread)
+		(parameter LoopMode)
+		(parameter ScenarioPath)
+      )
+;;信关站用户站坐标
+	  (class XGYHCoordinate reliable timestamp
+		(parameter XGYHName)
+		(parameter XGYHLongitude)
+		(parameter XGYHLatitude)
+		(parameter XGYHType)
+	  )
+;;卫星用户参数
+	  (class SatUserParameter reliable timestamp
+		(parameter SatUserName)
+		(parameter SatUserAltitude)
+		(parameter SatUserOrbitalInclination)
+		(parameter SatUserRightAscensionOfAscendingNode)
+		(parameter SatUserOrbitalNumber)
+		(parameter SatUserInPlaneSatelliteNumber)
+		(parameter SatUserPhaseParameters)
+		(parameter SatUserRAANSpread)
+      )
+;;馈电波束，用户波束参数
+	  (class BeamParameters reliable timestamp
+		(parameter BeamNumber)
+		(parameter BeamAzimuth)
+		(parameter BeamElevation)
+		(parameter BeamDiameter)
+		(parameter BeamType)
+      )
+;;任务规划端
+	  (class PlanComplete reliable timestamp
+		(parameter MissionCompleted)
+      )
+;;移动用户站参数
+	  (class MobileNodeParameter reliable timestamp
+	    (parameter MobileNodeName)
+		(parameter StartLongitude)
+		(parameter StartLatitude)
+		(parameter MobileStartTime)
+		(parameter EndLongitude)
+		(parameter EndLatitude)
+		(parameter MobileSpeed)
+	  )
+;;点对点链路参数（仿真辅助端接收）Added by YX
+	  (class PtoPModelParameter reliable timestamp
+	    (parameter LinkDropRate) ;;double 链路丢包概率[0, 1] 默认0.0
+		(parameter LinkBandwidth);;double 链路带宽bps 默认 1Gbps
+		(parameter LinkRouteType);;string 链路路由类型 默认OSPFv2
+		(parameter LinkPropspeed);;double 链路传播速度 默认光速
+	  )
+;;ANE模型参数
+    (class ANEModelParameter reliable timestamp
+	    (parameter Updelay) ;;double 上行时延 默认0.0
+		(parameter Downdelay);;double 下行时延 默认 0.0
+		(parameter Upbandwidth);;double 上行带宽 默认10Mbps
+		(parameter Downbandwidth);;double 下行带宽 默认100Mbps
+        (parameter Routetype);;string 路由类型 默认OSPFv2
+		(parameter Droprate);;double 丢包概率 0.0
+	  )
+;;ISL链路参数（仿真辅助端接收）Added by YX
+	  (class ISLModelParameter reliable timestamp
+	    (parameter ISLinkDropRate) ;;double 链路丢包概率[0, 1] 默认0.0
+		(parameter ISLinkBandwidth);;double 链路带宽bps 默认 1Gbps
+		(parameter ISLinkRouteType);;string 链路路由类型 默认OSPFv2
+		(parameter ISLinkPropspeed);;double 链路传播速度 默认光速
+	  )
+;;Link无线环境参数（仿真辅助端接收）Added by YX
+	  (class LinkwirelessParameter reliable timestamp
+	    (parameter LinkDelay) ;;double Link 时延[0, 1] 默认0.0
+		(parameter LinkBandwidth);;double 链路带宽bps 默认 10Mbps
+		(parameter LinkTXFrequency);;double  发射天线频率 默认13.17Ghz
+		(parameter LinkRXFrequency);;double 接收天线频率 默认13.17Ghz
+        (parameter LinkTXaneHeight) ;;double 发射天线高度 默认30M
+		(parameter LinkRXaneHeight);;double 接收天线高度 默认30M
+		(parameter LinkTXDish);;double 发射天线表盘直径 默认0.8M
+		(parameter LinkRXDish);;double 接受天线表盘直径 默认 0.8M
+        (parameter LinkTXloss) ;;double 发射天线传输线损失 默认 0.3db
+		(parameter LinkRXloss);;double 接收天线传输线损失 默认 0.3db
+		(parameter LinkTXPower);;double 发射天线功率 默认40dbm
+		(parameter LinkRXSensitivity);;double 接收天线灵敏度 默认-85dbm
+        (parameter LinkNoiseTemperature) ;;double 噪声温度  默认290K
+		(parameter LinkNoiseFactor);;double 噪声因数 默认 4.0
+		(parameter LinkTerrainType);;string 传播地面类型 [PLAINS, HILLS, MOUNTAINS] 默认PLAINS
+		(parameter LinkRainIntensity);;double 传输地区降雨强度 [0，100] 默认0.0
+        (parameter LinkTemperature) ;;double 传输地区温度[-20, 50] 默认25
+		(parameter LinkClimate);;int 地区气候类型[1,7],
+                ;;1 : Equatorial
+				;;2 : Continental Subtropical
+				;;3 : Maritime Tropical
+				;;4 : Desert
+				;;5 : Continental Temperate
+				;;6 : Maritime Temperate, Over Land
+				;;7 : Maritime Temperate, Over Sea 
+                ;;默认 1
+		(parameter LinkRefactivity);;折射系数 大于280  默认360
+                ;;360.0 : Equatorial
+			    ;;320.0 : Continental Subtropical
+				;;370.0 : Maritime Tropical
+				;;280.0 : Desert
+				;;301.0 : Continental Temperate
+				;;320.0 : Maritime Temperate, Over Land
+				;;350.0 : Maritime Temperate, Over Sea
+		(parameter LinkPermittivity);;double 电容率 [0, 99]默认15.0
+                ;;4.0 : Poor Ground
+				;;15.0 : Average Ground
+				;;25.0 : Good Ground
+				;;81.0 : Fresh Water
+				;;81.0 : Salt Water
+        (parameter LinkConductivity);;double 传导率 默认0.005
+                ;;0.005 : Average Ground 
+                ;;0.001 : Poor Ground
+                ;;0.02 : Good Ground
+                ;;0.01 : Fresh Water
+                ;;5.0 : Salt Water
+		(parameter LinkHumidity);;double 湿度 [0, 100]默认50:summer, 80:winter
+	  )
+;;PhyAbstract 模型参数
+    (class PhyAneParameter reliable timestamp
+	    (parameter ChannelFrequency) ;;double 信道频率 默认14.5G
+		(parameter DateRate);;double 数据速率 默认 2M
+		(parameter BandWidth);;double 带宽 默认2Mbps
+		(parameter TXpower);;double 发射功率 默认55Dbm
+        (parameter RXsensitive);;string 接收灵敏度 默认-91dbm
+		(parameter RXthreshold);;double 接收门限 -81.0dbm
+        (parameter SNRthreshold) ;;double SNR接收门限 默认10.0
+		(parameter AntennaGain);;double 天线增益 默认 25.0db
+		(parameter AntennaEffic);;double 天线效率 默认0.8
+		(parameter AntennaMisloss);;double 天线失配损失 默认0.3dbm
+        (parameter PhyTempture);;double 物理层温度 默认290K
+		(parameter PhyNoiseFactor);;double 噪声因数 10.0
+        (parameter DropRate) ;;double 丢包概率 默认0.0
+		(parameter RouteType);;string 路由类型 默认OSPFv2
+		(parameter MACType);;string MACType 默认CAMA [PSMA,CSMA,CSMA-CA]
+	  )
+;;Satcom链路参数（仿真辅助端接收）Added by YX
+	  (class SatcomModelParameter reliable timestamp
+	    (parameter SatcomDropRate) ;;double satcom丢包概率[0, 1] 默认0.0
+		(parameter SatcomBandwidth);;double satcom带宽bps 默认 1Gbps
+		(parameter SatcomRouteType);;string satcom路由类型 默认OSPFv2
+		(parameter SatcomDelay);;double satcom时延 默认300ms
+	  )
+;;Exata使用处理器个数参数（仿真辅助端接收）
+	  (class ProcessorNumParameter reliable timestamp
+	    (parameter NumOfProcessor) ;;int 启动仿真的处理器个数[1 , 4] 默认1
+	  )
+;;初始化仿真标志（仿真辅助端接收）
+	  (class InitializeFlag reliable timestamp
+	    (parameter FlagInitial) ;;辅助端接收到该交互类则开始调用exata.exe启动仿真
+        (parameter SimType);;半物理还是纯虚拟仿真
+      )
+;;星间路由模式路径（仿真发送给演示）by xyt 1128
+	  (class InterSatellitePath reliable timestamp
+	    (parameter ISLPath) ;;string Path路径
+        (parameter ISLid) ;; int PathID
+	  )
+;;仿真场景配置完成标志（仿真辅助端发送给控制台控制台收到该交互类后才能发送初始化仿真交互类）
+	  (class ConfigCompleteFlag reliable timestamp
+	    (parameter FlagComplete) ;;辅助端建立完config文件之后给控制台发送表示可以初始化仿真运行
+	  );;end added by YX
+;; start stk satellite creating module class
+	  (class StkSatellite reliable timestamp
+		(parameter SatelliteName)
+		(parameter TleFirst)
+		(parameter TleSecond)
+		(parameter SaFile)
+		(parameter CreateMode)
+      )
+;; start stk facility(ground station) creating module class
+	  (class StkFacility reliable timestamp
+		(parameter FacilityName)
+		(parameter FacilityLatitude)
+		(parameter FacilityLongitude)
+      )
+;; start stk area target creating module class
+	  (class StkArea reliable timestamp
+		(parameter AreaName)
+		(parameter AreaLatitude)
+		(parameter AreaLongitude)
+		(parameter SemiMajorAxis)
+		(parameter SemiMinorAxis)
+		(parameter AreaBearing)
+      )
+;; start stk chain creating module class
+	  (class StkChain reliable timestamp
+		(parameter ChainName)
+		(parameter ObjectName)
+		(parameter ObjectType)
+		(parameter CreateMode)
+      )
+;; start stk constellation creating module class
+	  (class StkConstellation reliable timestamp
+		(parameter ConstellationName)
+		(parameter ObjectName)
+		(parameter ObjectType)
+		(parameter CreateMode)
+      )
+;; start stk constellation creating module class
+	  (class StkVehicle reliable timestamp
+		(parameter VehicleName)
+		(parameter GaFile)
+		(parameter VehicleType)
+      )
+;; start stk Scale creating module class
+	  (class StkScale reliable timestamp
+		(parameter ObjectName)
+		(parameter ObjectType)
+		(parameter ObjectScale)
+		(parameter MaxDistance)
+      )
+;; start stk coverage creating module class
+	  (class StkCoverage reliable timestamp
+		(parameter CoverageName)
+		(parameter RegionName)
+		(parameter CreateType)
+		(parameter CreateMode)
+		(parameter PointGranularity)
+      )
+;; start stk add region module class
+	  (class StkAddRegion reliable timestamp
+		(parameter CoverageName)
+		(parameter RegionName)
+		(parameter RegionNum)
+      )
+;; start stk assign asset module class
+	  (class StkAssignAsset reliable timestamp
+		(parameter CoverageName)
+		(parameter AssetName)
+      )
+;; start stk scenario ready module class
+	  (class StkScenarioReady reliable timestamp
+		(parameter ScenarioReady)
+      )
+;; start stk access calculating module class
+	  (class StkAccess reliable timestamp
+		(parameter AccessResult)
+      )
+;; start stk lineTarget(ground station) creating module class
+	  (class StkLineTarget reliable timestamp
+		(parameter LineTargetName)
+		(parameter LineTargetLatitude)
+		(parameter LineTargetLongitude)
+      )
+	  
+	  (class StkCoverageCal reliable timestamp
+		(parameter CoverageCalResult)
+      )
+;; start stk fom module class
+	  (class StkFom reliable timestamp
+		(parameter CoverageName)
+		(parameter FomName)
+		(parameter FomType)
+		(parameter FomThreshold)		
+      )
+;; start stk sensor module class
+	  (class StkSensor reliable timestamp
+		(parameter SensorName)
+		(parameter SensorType)
+		(parameter TypeData)
+		(parameter ObjectName)
+		(parameter ObjectType)
+      )
+;; start stk annotation module class
+	  (class StkAnnotation reliable timestamp
+		(parameter AnnotationName)
+		(parameter CreateMode)
+		(parameter Text)
+		(parameter TextNum)
+		(parameter CoordType)
+		(parameter TextPosition)
+		(parameter TextColor)
+		(parameter TextSize)
+      )
+;;wh
+	  (class StkCoverageSend reliable timestamp
+		(parameter TotalDuration)
+		(parameter TotalDurationPercent)
+		(parameter MeanDuration)
+		(parameter MeanGapDuration)
+		(parameter NumberOfAccess)
+		(parameter CoveragePercent)
+      )	  
+	 (class CtrlEvaParameters reliable receive 
+        (parameter ScenName)
+        (parameter ExpertNum)
+        (parameter EvaType)
+      )
+      (class CtrlMetrics reliable receive 
+        (parameter MetricLevel)
+        (parameter MetricWeight)
+        (parameter MetricValue)
+        (parameter MetricName)
+        (parameter ParentMetricName)
+		(parameter IsLeaf)
+		(parameter FullPath)
+      )
+	  ;;设计指标
+	  (class EvaluationDesignValue reliable receive 
+        (parameter NumOfFreBand);//频段数目int
+        (parameter BandWidth);;通信带宽double
+        (parameter NumOfModulation);;调制方式数目int
+        (parameter NumOfCoding);;编码方式数目int
+        (parameter SwitchCapacity);;交换容量double
+        (parameter NumOfSwitchMethod);;交换方式数目int
+        (parameter AccessCapacity);;接入容量int
+        (parameter UserScale);;用户规模int
+		(parameter UserAuthentication);;用户认证int
+		(parameter ExceptionDetecting);;异常检测int
+		(parameter NetworkIsolation);;网络隔离int
+      )
+      (class OpConvergenceDuration reliable receive 
+        (parameter TheValue)
+        (parameter SimTime)
+        (parameter NodeId)
+      )
+      (class OpFinish reliable receive 
+        (parameter Finish)
+		(parameter EndTime)
+      )
+;;OPNET路径节点信息
+	  (class  Path_Node reliable receive
+		(parameter  src_addr )
+		(parameter  dest_addr  )
+		(parameter  route_path_node )
+	  )
+;;清除链路
+      (class  Clear_Path reliable receive
+		(parameter  clear_path)
+		(parameter  src_addr )
+		(parameter  dest_addr  )
+	  )
+;;用户在线
+	  (class  OpUserOnline reliable receive
+		(parameter  UserId)
+		(parameter  OnlineFlag)
+		(parameter  SimTime)
+	   )
+	  (class  OpUserAccess reliable receive
+		(parameter  UserAccessFlag)
+	   )
+;;用户总数
+	  (class  OpUserNum reliable receive
+		(parameter  UserNumValue)
+	  )
+;;全网物理层丢包率
+	  (class  OpPkLossRatio reliable receive
+		(parameter  PkLossRatioValue)
+	  )
+;;各条业务流的发送量、接收量、时延、时延抖动
+	  (class  OpAppTrafficInfoSingle reliable receive
+		(parameter  SubnetName_1);;源端节点所在子网，若不在子网内，SubnetName == "top"
+		(parameter  ScrName);;源端节点名
+		(parameter  SubnetName_2);;目的节点所在子网，若不在子网内，SubnetName == "top"
+		(parameter  DestName);;目的节点名
+		(parameter  SimTime)
+		(parameter  AppTrafficSend);;发送量，单位Bps
+		(parameter  AppTrafficRcvd);;接收量，单位Bps
+		(parameter  DelayTime);;时延，http无此指标，缺省值为-1
+		(parameter  DelayVar);;时延抖动，http和ftp无此指标，缺省值为-1
+	  )
+;;各条业务流的持续时间（ 备注：每条流的业务中断时间 = （1-每条流总的接收量/每条流总的发送量）*每条流的持续时间 ）
+	  (class  OpAppInfor reliable receive
+		(parameter  SubnetName);;源端节点所在子网，若不在子网内，SubnetName == "top"
+		(parameter  NodeName);;源端节点名
+		(parameter  ProfileName);;业务名称，视情况而定是否需要区分业务流的名称
+		(parameter  ProfileStartTime);;业务流的起始时间
+		(parameter  ProfileEndTime);;业务流的结束时间
+	  )
+;;所有业务流的发送量、接收量 （ 备注：该交互类中的AppTrafficRcvd表示网络吞吐量，其余的参数可以不用接收）
+	  (class  OpAppTrafficInfoAll reliable receive
+		(parameter  NodeId)
+		(parameter  SimTime)
+		(parameter  AppTrafficSend)
+		(parameter  AppTrafficRcvd);;网络吞吐量，单位Bps
+	  )
+;;各星资源占用率 （ 备注：分为波束占用率和信道占用率 ）
+     (class OpResourceOccupancyRate reliable receive
+        (parameter Type);;Type=="beam"则表示波束占用率，Type=="beam"则表示信道占用率
+		(parameter SimTime)
+	    (parameter SatName_1);;缺省值为"NONE"
+	    (parameter ResourceOccupancyRate_1);;缺省值为-1
+	    (parameter SatName_2);;缺省值为"NONE"
+	    (parameter ResourceOccupancyRate_2);;缺省值为-1
+	    (parameter SatName_3);;缺省值为"NONE"
+	    (parameter ResourceOccupancyRate_3);;缺省值为-1
+	    (parameter SatName_4);;缺省值为"NONE"
+	    (parameter ResourceOccupancyRate_4);;缺省值为-1
+	    (parameter SatName_5);;缺省值为"NONE"
+	    (parameter ResourceOccupancyRate_5);;缺省值为-1
+     )
+;;星上路由开销 （ 备注：对应路由器CPU消耗和内存开销 ）
+      (class OpRouteTrafficSend reliable receive 
+        (parameter SimTime)
+		(parameter TheValue);;对应全局路由开销
+        (parameter SatRouteCostSent);;星上路由开销发送量，单位bps
+		(parameter SatRouteCostRcvd);;星上路由开销接收量，单位bps
+	  )
+;;接入能力（ 备注：该交互类只发送一次 ）
+      (class OpAccessAbility reliable receive 
+        (parameter AccessSignalingCost);;接入管理信令开销，单位bit
+		(parameter AccessTimeAverage);;用户平均接入时间
+		(parameter AccessSuccessRate);;接入成功率
+        (parameter ChannelApplyAverage);;业务平均接入时间
+      )
+;;切换能力 （ 备注：分为波束间切换和星间切换，该交互类只发送一次 ）
+      (class OpSwitchAbility reliable receive 
+        (parameter BeamSwitchTimeAverage);;波束间平均切换时间
+		(parameter BeamSwitchSuccessRate);;波束间切换成功率
+        (parameter SatSwitchTimeAverage);;星间平均切换时间
+		(parameter SatSwitchSuccessRate);;星间切换成功率
+      )
+;;对地链路传输能力 
+      (class OpS2gLinkTrafficAbility reliable receive
+	    (parameter SatName)
+	    (parameter SatbeamID)
+	    (parameter SimTime)
+	    (parameter UplinkTrafficBps);;上行链路传输速率，单位bps
+		(parameter UplinkUtilizationRadio);;上行链路传输利用率
+	    (parameter DownlinkTrafficBps);;下行链路传输速率，单位bps
+		(parameter DownlinkUtilizationRadio);;下行链路传输利用率
+	    (parameter LinkPkLossRadio);;链路丢包率
+      )	  
+;;星间链路传输能力 （备注：UplinkTrafficBps、UplinkUtilizationRadio指代SatName2到SatName1的链路传输速率和利用率、、、）
+      (class OpS2sLinkTrafficAbility reliable receive
+	    (parameter SatName1)
+	    (parameter SatName2)
+	    (parameter SimTime)
+	    (parameter UplinkTrafficBps);;上行链路传输速率，单位bps
+		(parameter UplinkUtilizationRadio);;上行链路传输利用率
+	    (parameter DownlinkTrafficBps);;下行链路传输速率，单位bps
+		(parameter DownlinkUtilizationRadio);;下行链路传输利用率
+	    (parameter LinkPkLossRadio);;链路丢包率
+      )
+;;链路传输能力设计指标（备注：该交互类只发送一次）
+      (class OpLinkAbilityDesigned reliable receive
+	    (parameter StogDownstrmDatarate);;下行链路传输速率，单位bps
+	    (parameter StogUpstrmDatarate);;上行链路传输速率，单位bps
+	    (parameter StosDatarate);;星间链路传输速率，单位bps
+      )
+;;LSP建立时间
+	 (class OpLspSetupTime reliable receive
+	    (parameter LspId)  
+	    (parameter SetupTime)   
+     )
+;;LSP开销
+     (class OpLspTrafInBits reliable receive
+	    (parameter LspId)
+	    (parameter TrafInBits) 
+     )
+;;LSP总数目
+     (class OpLspTotalNums reliable receive
+	    (parameter LspNums)
+     )
+;;仿真时间
+	 (class OpSimTime reliable receive
+		(parameter SimTime)
+	 )
+
+    )
+ )
+)

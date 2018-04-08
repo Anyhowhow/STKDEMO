@@ -1,0 +1,28 @@
+/* XPM */
+static char * TrnResDecr[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"16 16 6 1 0 0",
+/* colors */
+" 	c #9B9B9B9B9B9B",
+".	s iconGray4	m white	c #949494949494",
+"X	s iconColor6	m white	c yellow",
+"o	s iconColor1	m black	c black",
+"O	s iconColor2	m white	c white",
+"+	s iconColor4	m white	c green",
+/* pixels */
+"                ",
+"    .           ",
+" ......         ",
+" ......  Xo     ",
+" ....... XOo    ",
+" ........XXOo   ",
+" ....... XXXOo  ",
+" ....... XXXXOo ",
+" ....... XXXXXX ",
+" ...+o.. XXXo   ",
+" ..++o.. XXXo   ",
+" ..+++o. XXXo   ",
+" .++++o. XXXo   ",
+" .+++++o XXXo   ",
+" ++++++. XXX    ",
+"                "};

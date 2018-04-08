@@ -1,0 +1,931 @@
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#Model Builder:Jim Poland
+#DOM 21 Mar '98_sc
+#Manufacturer/Contractor:n/a 
+#Name: MCE
+#Width:8.7 m 
+#Length:18 m 
+#Height:3.3 m 
+#Articulations:(Yes)
+
+Component mcetrailer
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 30.0
+		NumVerts 4
+		Data
+			0.0 4.0 0.0
+			0.0 4.0 9.0
+			0.0 -4.0 9.0
+			0.0 -4.0 0.0
+	EndExtrusion
+EndComponent
+Component mcetrailerFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 4.0 0.0
+			0.0 4.0 9.0
+			0.0 -4.0 9.0
+			0.0 -4.0 0.0
+	EndPolygon
+EndComponent
+Component mcetrailerBk
+	Polygon
+		Translate 30.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 4.0 0.0
+			0.0 4.0 9.0
+			0.0 -4.0 9.0
+			0.0 -4.0 0.0
+	EndPolygon
+EndComponent
+Component mcetrailerStr
+	Refer
+		Component mcetrailer
+	EndRefer
+	Refer
+		Component mcetrailerFt
+	EndRefer
+	Refer
+		Component mcetrailerBk
+	EndRefer
+EndComponent
+Component TrailerBed
+	Extrusion
+		FaceColor gray30
+		Length 30.0
+		NumVerts 4
+		Data
+			0.0 4.0 -1.0
+			0.0 4.0 0.0
+			0.0 -4.0 0.0
+			0.0 -4.0 -1.0
+	EndExtrusion
+EndComponent
+Component TrailerBedFt
+	Polygon
+		FaceColor gray30
+		NumVerts 4
+		Data
+			0.0 4.0 -1.0
+			0.0 4.0 0.0
+			0.0 -4.0 0.0
+			0.0 -4.0 -1.0
+	EndPolygon
+EndComponent
+Component TrailerBedBk
+	Polygon
+		Translate 30.0 0.0 0.0
+		FaceColor gray30
+		NumVerts 4
+		Data
+			0.0 4.0 -1.0
+			0.0 4.0 0.0
+			0.0 -4.0 0.0
+			0.0 -4.0 -1.0
+	EndPolygon
+EndComponent
+Component TrailerBedStr
+	Refer
+		Component TrailerBed
+	EndRefer
+	Refer
+		Component TrailerBedFt
+	EndRefer
+	Refer
+		Component TrailerBedBk
+	EndRefer
+EndComponent
+Component HydSprtCyl
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 3
+		Data
+			0.0 0.005 0.0
+			0.0 0.3 0.0
+			3.5 0.3 0.0
+	EndRevolve
+EndComponent
+Component HydSprtRod
+	Revolve
+		FaceColor gray60
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 3
+		Data
+			3.5 0.25 0.0
+			5.0 0.25 0.0
+			5.0 0.005 0.0
+	EndRevolve
+EndComponent
+Component Wheel
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 4
+		Data
+			0.2 0.4 0.0
+			0.2 0.75 0.0
+			-0.2 0.75 0.0
+			-0.2 0.4 0.0
+	EndRevolve
+EndComponent
+Component Hub
+	Revolve
+		FaceColor gray30
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 8
+		Data
+			0.10 0.0 0.0
+			0.10 0.3 0.0
+			0.15 0.3 0.0
+			0.15 0.4 0.0
+			-0.15 0.4 0.0
+			-0.15 0.3 0.0
+			-0.10 0.3 0.0
+			-0.10 0.0 0.0
+	EndRevolve
+EndComponent
+Component Axle
+	Revolve
+		FaceColor gray30
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 2
+		Data
+			-0.5 0.4 0.0
+			0.5 0.4 0.0
+	EndRevolve
+EndComponent
+Component HydCylAssm
+	Refer
+		Component HydSprtCyl
+	EndRefer
+	Refer
+		Component HydSprtRod
+	EndRefer
+EndComponent
+Component WheelAssm
+	Refer
+		Component Wheel
+	EndRefer
+	Refer
+		Component Hub
+	EndRefer
+EndComponent
+Component TrailerSprtAssm
+	Refer
+		Rotate 0.0 90.0 0.0
+		Translate 0.0 0.0 5.0
+		Component HydCylAssm
+	EndRefer
+	Refer
+		Translate -0.5 0.4 0.0
+		Component WheelAssm
+	EndRefer
+	Refer
+		Translate 0.5 0.4 0.0
+		Component WheelAssm
+	EndRefer
+	Refer
+		Translate 0.0 0.4 0.0
+		Component Axle
+	EndRefer
+EndComponent
+Component TrailerAssm
+	Refer
+		Component mcetrailerStr
+	EndRefer
+	Refer
+		Component TrailerBedStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 90.0
+		Translate -0.4 -3.8 -1.0
+		Component TrailerSprtAssm
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 90.0
+		Translate -0.4 3.8 -1.0
+		Component TrailerSprtAssm
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 30.4 -3.8 -1.0
+		Component TrailerSprtAssm
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 30.4 3.8 -1.0
+		Component TrailerSprtAssm
+	EndRefer
+EndComponent
+Component PowerGen
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 4.0
+		NumVerts 4
+		Data
+			0.0 2.0 0.0
+			0.0 2.0 4.0
+			0.0 -2.0 4.0
+			0.0 -2.0 0.0
+	EndExtrusion
+EndComponent
+Component PowerGenFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 2.0 0.0
+			0.0 2.0 4.0
+			0.0 -2.0 4.0
+			0.0 -2.0 0.0
+	EndPolygon
+EndComponent
+Component PowerGenBk
+	Polygon
+		Translate 4.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 2.0 0.0
+			0.0 2.0 4.0
+			0.0 -2.0 4.0
+			0.0 -2.0 0.0
+	EndPolygon
+EndComponent
+Component PowerGenStr
+	Refer
+		Component PowerGen
+	EndRefer
+	Refer
+		Component PowerGenFt
+	EndRefer
+	Refer
+		Component PowerGenBk
+	EndRefer
+EndComponent
+Component Elbow
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 90.0
+		NumRevolve 8
+		NumVerts 9
+		Data
+			0.5 1.0 0.0
+			0.34 1.34 0.0
+			0.0 1.5 0.0
+			-0.34 1.34 0.0
+			-0.5 1.0 0.0
+			-0.34 0.66 0.0
+			0.0 0.5 0.0
+			0.34 0.66 0.0
+			0.5 1.0 0.0
+	EndRevolve
+EndComponent
+Component StraightSec
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 2
+		Data
+			0.0 0.5 0.0
+			5.0 0.5 0.0
+	EndRevolve
+EndComponent
+Component PowerGenAssm
+	Refer
+		Translate -8.0 -2.0 -1.0
+		Component PowerGenStr
+	EndRefer
+	Refer
+		Rotate 90.0 0.0 -90.0
+		Translate -4.0 -1.0 3.0
+		Component Elbow
+	EndRefer
+	Refer
+		Translate -4.0 -1.0 4.0
+		Component StraightSec
+	EndRefer
+EndComponent
+#-----------------------------------
+# UHF Equipment
+#----------------------------------
+Component AntDish
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 32
+		NumVerts 10
+		Data
+			2.3 0.005 0.0
+			2.3 0.5 0.0
+			1.8 0.35 0.0
+			0.02 0.45 0.0
+			0.08 1.0 0.0
+			0.1 1.5 0.0
+			0.2 2.05 0.0
+			0.37 3.0 0.0
+			0.65 4.0 0.0
+			0.95 4.8 0.0
+	EndRevolve
+EndComponent
+Component DishBk
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 32
+		NumVerts 3
+		Data
+			-1.25 0.005 0.0
+			-1.25 1.4 0.0
+			0.95 5.0 0.0
+	EndRevolve
+EndComponent
+Component AntMnt
+	Revolve
+		Rotate 45.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 4
+		NumVerts 3
+		Data
+			0.0 0.005 0.0
+			0.0 0.9 0.0
+			1.8 1.2 0.0
+	EndRevolve
+EndComponent
+Component AntMntPost
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 4
+		Data
+			0.0 1.2 0.0
+			0.2 1.2 0.0
+			0.2 1.0 0.0
+			4.0 0.3 0.0
+	EndRevolve
+EndComponent
+Component AntSubStr
+	Refer
+		Component AntDish
+	EndRefer
+	Refer
+		Component DishBk
+	EndRefer
+	Refer
+		Translate -3.0 0.0 0.0
+		Component AntMnt
+	EndRefer
+EndComponent
+Component AntStr
+	Articulation AEMotion
+		yRotate ArmY -90.0 0.0 0.0
+		zRotate ArmZ -90.0 0.0 90.0
+	EndArticulation
+	Refer
+		Translate 2.0 0.0 0.0
+		Component AntSubStr
+	EndRefer
+EndComponent
+Component AntAssm
+	Refer
+		Translate 10.0 0.0 5.5
+		Component AntStr
+	EndRefer
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 10.0 0.0 1.0
+		Component AntMntPost
+	EndRefer
+EndComponent
+Component HydLeg
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 4
+		Data
+			0.0 0.005 0.0
+			0.0 0.2 0.0
+			1.0 0.2 0.0
+			1.0 0.15 0.0
+	EndRevolve
+EndComponent
+Component Piston
+	Revolve
+		FaceColor gray60
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 4
+		Data
+			0.0 0.15 0.0
+			1.6 0.15 0.0
+			2.0 0.6 0.0
+			2.0 0.005 0.0
+	EndRevolve
+EndComponent
+Component HydLegStr
+	Refer
+		Component HydLeg
+	EndRefer
+	Refer
+		Component Piston
+	EndRefer
+EndComponent
+Component SupportLeg
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 2
+		Data
+			0.0 0.2 0.0
+			1.6 0.2 0.0
+	EndRevolve
+EndComponent
+Component LegStr
+	Refer
+		Rotate 0.0 90.0 0.0
+		Translate -1.4 0.0 0.3
+		Component HydLegStr
+	EndRefer
+	Refer
+		Rotate 0.0 20.0 180.0
+		Translate 0.0 0.0 0.45
+		Component SupportLeg
+	EndRefer
+EndComponent
+Component LegAssm
+	Refer
+		Rotate 0.0 0.0 45.0
+		Translate 0.1 -2.9 0.0
+		Component LegStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 135.0
+		Translate 12.0 -2.9 0.0
+		Component LegStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -135.0
+		Translate 12.0 2.9 0.0
+		Component LegStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -45.0
+		Translate 0.1 2.9 0.0
+		Component LegStr
+	EndRefer
+EndComponent
+Component VertRail
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 3
+		Data
+			0.0 0.05 0.0
+			6.0 0.05 0.0
+			6.0 0.005 0.0
+	EndRevolve
+EndComponent
+Component HorzRail
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 8
+		NumVerts 3
+		Data
+			0.0 0.05 0.0
+			3.5 0.05 0.0
+			3.5 0.005 0.0
+	EndRevolve
+EndComponent
+Component RailAssm
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 3.5 3.0 0.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 0.0 3.0 0.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 3.5 -3.0 0.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 0.0 -3.0 0.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 0.0 3.0 6.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 0.0 3.0 6.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 0.0 3.0 5.0
+		Component VertRail
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 0.0 3.0 5.0
+		Component VertRail
+	EndRefer
+	Refer
+		Translate 0.0 3.0 6.0
+		Component HorzRail
+	EndRefer
+	Refer
+		Translate 0.0 -3.0 6.0
+		Component HorzRail
+	EndRefer
+	Refer
+		Translate 0.0 3.0 5.0
+		Component HorzRail
+	EndRefer
+	Refer
+		Translate 0.0 -3.0 5.0
+		Component HorzRail
+	EndRefer
+EndComponent
+Component Wheel2
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 4
+		Data
+			0.2 0.4 0.0
+			0.2 1.0 0.0
+			-0.2 1.0 0.0
+			-0.2 0.4 0.0
+	EndRevolve
+EndComponent
+Component Hub2
+	Revolve
+		FaceColor gray30
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 8
+		Data
+			0.10 0.0 0.0
+			0.10 0.3 0.0
+			0.15 0.3 0.0
+			0.15 0.4 0.0
+			-0.15 0.4 0.0
+			-0.15 0.3 0.0
+			-0.10 0.3 0.0
+			-0.10 0.0 0.0
+	EndRevolve
+EndComponent
+Component UHFWheelStr
+	Refer
+		Component Wheel2
+	EndRefer
+	Refer
+		Component Hub2
+	EndRefer
+EndComponent
+Component UHFWheelAssm
+	Refer
+		Rotate 0.0 0.0 90.0
+		Translate 8.0 3.2 0.0
+		Component UHFWheelStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 90.0
+		Translate 8.0 -3.2 0.0
+		Component UHFWheelStr
+	EndRefer
+EndComponent
+Component Trailer
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 12.0
+		NumVerts 4
+		Data
+			0.0 3.0 0.0
+			0.0 3.0 1.0
+			0.0 -3.0 1.0
+			0.0 -3.0 0.0
+	EndExtrusion
+EndComponent
+Component TrailerFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 3.0 0.0
+			0.0 3.0 1.0
+			0.0 -3.0 1.0
+			0.0 -3.0 0.0
+	EndPolygon
+EndComponent
+Component TrailerBk
+	Polygon
+		Translate 12.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 3.0 0.0
+			0.0 3.0 1.0
+			0.0 -3.0 1.0
+			0.0 -3.0 0.0
+	EndPolygon
+EndComponent
+Component UHFTrailerStr
+	Refer
+		Component Trailer
+	EndRefer
+	Refer
+		Component TrailerFt
+	EndRefer
+	Refer
+		Component TrailerBk
+	EndRefer
+EndComponent
+Component Platform
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 3.5
+		NumVerts 4
+		Data
+			0.0 3.0 0.0
+			0.0 3.0 0.25
+			0.0 -3.0 0.25
+			0.0 -3.0 0.0
+	EndExtrusion
+EndComponent
+Component PlatformFt
+	Polygon
+		FaceColor gray9
+		NumVerts 4
+		Data
+			0.0 3.0 0.0
+			0.0 3.0 0.25
+			0.0 -3.0 0.25
+			0.0 -3.0 0.0
+	EndPolygon
+EndComponent
+Component PlatformBk
+	Polygon
+		Translate 3.5 0.0 0.0
+		FaceColor gray9
+		NumVerts 4
+		Data
+			0.0 3.0 0.0
+			0.0 3.0 0.25
+			0.0 -3.0 0.25
+			0.0 -3.0 0.0
+	EndPolygon
+EndComponent
+Component PlatformStr
+	Refer
+		Component Platform
+	EndRefer
+	Refer
+		Component PlatformFt
+	EndRefer
+	Refer
+		Component PlatformBk
+	EndRefer
+EndComponent
+Component EquipBox1
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 3.0
+		NumVerts 4
+		Data
+			0.0 2.5 0.0
+			0.0 2.5 2.5
+			0.0 -2.5 2.5
+			0.0 -2.5 0.0
+	EndExtrusion
+EndComponent
+Component EquipBox1Ft
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 2.5 0.0
+			0.0 2.5 2.5
+			0.0 -2.5 2.5
+			0.0 -2.5 0.0
+	EndPolygon
+EndComponent
+Component EquipBox1Bk
+	Polygon
+		Translate 3.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 2.5 0.0
+			0.0 2.5 2.5
+			0.0 -2.5 2.5
+			0.0 -2.5 0.0
+	EndPolygon
+EndComponent
+Component Screen
+	Polygon
+		Translate -0.1 0.0 0.0
+		FaceColor gray9
+		NumVerts 4
+		Data
+			0.0 0.6 0.0
+			0.0 0.6 2.2
+			0.0 -0.6 2.2
+			0.0 -0.6 0.0
+	EndPolygon
+EndComponent
+Component EquipBox1Str
+	Refer
+		Component EquipBox1
+	EndRefer
+	Refer
+		Component EquipBox1Ft
+	EndRefer
+	Refer
+		Component EquipBox1Bk
+	EndRefer
+	Refer
+		Translate 0.0 -1.6 0.1
+		Component Screen
+	EndRefer
+EndComponent
+Component EquipBox1Assm
+	Refer
+		Translate 0.1 0.0 1.0
+		Component EquipBox1Str
+	EndRefer
+EndComponent
+Component PowerGenr
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 2.5
+		NumVerts 4
+		Data
+			0.0 1.5 0.0
+			0.0 1.5 2.0
+			0.0 -1.5 2.0
+			0.0 -1.5 0.0
+	EndExtrusion
+EndComponent
+Component PowerGenrFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 1.5 0.0
+			0.0 1.5 2.0
+			0.0 -1.5 2.0
+			0.0 -1.5 0.0
+	EndPolygon
+EndComponent
+Component PowerGenrBk
+	Polygon
+		Translate 2.5 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 1.5 0.0
+			0.0 1.5 2.0
+			0.0 -1.5 2.0
+			0.0 -1.5 0.0
+	EndPolygon
+EndComponent
+Component Screen2
+	Polygon
+		Rotate 0.0 0.0 90.0
+		Translate 1.0 -1.55 0.2
+		FaceColor gray9
+		NumVerts 4
+		Data
+			0.0 0.6 0.0
+			0.0 0.6 1.6
+			0.0 -0.6 1.6
+			0.0 -0.6 0.0
+	EndPolygon
+EndComponent
+Component UHFPowerGenrStr
+	Refer
+		Component PowerGenr
+	EndRefer
+	Refer
+		Component PowerGenrFt
+	EndRefer
+	Refer
+		Component PowerGenrBk
+	EndRefer
+	Refer
+		Component Screen2
+	EndRefer
+EndComponent
+Component UHFPowerGenrAssm
+	Refer
+		Translate 4.0 -1.4 1.0
+		Component UHFPowerGenrStr
+	EndRefer
+EndComponent
+Component UHFTrailerAssm
+	Refer
+		Component UHFTrailerStr
+	EndRefer
+	Refer
+		Translate 0.0 0.0 3.7
+		Component PlatformStr
+	EndRefer
+	Refer
+		Component RailAssm
+	EndRefer
+	Refer
+		Component EquipBox1Assm
+	EndRefer
+	Refer
+		Component UHFWheelAssm
+	EndRefer
+	Refer
+		Component UHFPowerGenrAssm
+	EndRefer
+	Refer
+		Component AntAssm
+	EndRefer
+	Refer
+		Component LegAssm
+	EndRefer
+EndComponent
+Component Body
+	Refer
+		Component TrailerAssm
+	EndRefer
+	Refer
+		Translate -30.0 20.0 1.0
+		Component UHFTrailerAssm
+	EndRefer
+	Refer
+		Component PowerGenAssm
+	EndRefer
+	
+EndComponent
+
+Component MCEUnit
+	Root
+	Refer
+		Component Body
+		UniformScale .3048
+		Translate 0 4 .5
+		Articulation MCE
+			zRotate Rotate -180 147.3 180
+		EndArticulation
+	EndRefer
+EndComponent
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################

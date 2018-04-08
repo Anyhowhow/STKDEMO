@@ -1,0 +1,25 @@
+/* XPM */
+static char * step_vo[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"16 16 3 1 0 0",
+/* colors */
+" 	c #9B9B9B9B9B9B",
+".	s iconColor2	m white	c white",
+"X	c #000000008080",
+/* pixels */
+"                ",
+"                ",
+"        .       ",
+"  .XXX  X.      ",
+"  .XXX  XX.     ",
+"  .XXX  XXX.    ",
+"  .XXX  XXXX.   ",
+"  .XXX  XXXXX.  ",
+"  .XXX  XXXXXX  ",
+"  .XXX  XXXXX.  ",
+"  .XXX  XXXX.   ",
+"  .XXX  XXX.    ",
+"  .XXX  XX.     ",
+"  .XXX  X.      ",
+"                ",
+"                "};

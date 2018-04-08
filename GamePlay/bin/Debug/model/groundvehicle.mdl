@@ -1,0 +1,1073 @@
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#Model Builder:Jim Poland
+#DOM 21 Mar '98_sc
+#Manufacturer/Contractor: 
+#Name: Military Truck
+#Width:2.35 m 
+#Length:9 m 
+#Height:3.48 m 
+#Articulations:(No)
+
+Component RightSide
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 0.2
+		NumVerts 9
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 4.3 5.0
+			0.0 4.3 6.6
+			0.0 4.2 6.5
+			0.0 0.2 6.5
+			0.0 0.0 6.1
+			0.0 0.0 4.0
+			0.0 1.0 3.0
+	EndExtrusion
+EndComponent
+Component RightSideFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 9
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 4.3 5.0
+			0.0 4.3 6.6
+			0.0 4.2 6.5
+			0.0 0.2 6.5
+			0.0 0.0 6.1
+			0.0 0.0 4.0
+			0.0 1.0 3.0
+	EndPolygon
+EndComponent
+Component RightSideBk
+	Polygon
+		Translate 0.2 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 9
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 4.3 5.0
+			0.0 4.3 6.6
+			0.0 4.2 6.5
+			0.0 0.2 6.5
+			0.0 0.0 6.1
+			0.0 0.0 4.0
+			0.0 1.0 3.0
+	EndPolygon
+EndComponent
+Component RightSideStr
+	Refer
+		Component RightSide
+	EndRefer
+	Refer
+		Component RightSideFt
+	EndRefer
+	Refer
+		Component RightSideBk
+	EndRefer
+EndComponent
+Component LeftSide
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 0.2
+		NumVerts 7
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 4.3 5.0
+			0.0 4.3 6.1
+			0.0 0.0 6.1
+			0.0 0.0 4.0
+			0.0 1.0 3.0
+	EndExtrusion
+EndComponent
+Component LeftSideFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 7
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 4.3 5.0
+			0.0 4.3 6.1
+			0.0 0.0 6.1
+			0.0 0.0 4.0
+			0.0 1.0 3.0
+	EndPolygon
+EndComponent
+Component LeftSideBk
+	Polygon
+		Translate 0.2 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 7
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 4.3 5.0
+			0.0 4.3 6.1
+			0.0 0.0 6.1
+			0.0 0.0 4.0
+			0.0 1.0 3.0
+	EndPolygon
+EndComponent
+Component LeftSideStr
+	Refer
+		Component LeftSide
+	EndRefer
+	Refer
+		Component LeftSideFt
+	EndRefer
+	Refer
+		Component LeftSideBk
+	EndRefer
+EndComponent
+Component CtrSectionFwd
+	Extrusion
+		FaceColor gray20
+		Length 7.6
+		NumVerts 5
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 5.5 6.0
+			0.0 0.5 6.0
+			0.0 0.5 3.0
+	EndExtrusion
+EndComponent
+Component CtrSectionFwdFt
+	Polygon
+		FaceColor gray20
+		NumVerts 5
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 5.5 6.0
+			0.0 0.5 6.0
+			0.0 0.5 3.0
+	EndPolygon
+EndComponent
+Component CtrSectionFwdBk
+	Polygon
+		Translate 7.6 0.0 0.0
+		FaceColor gray20
+		NumVerts 5
+		Data
+			0.0 4.1 3.0
+			0.0 5.5 5.0
+			0.0 5.5 6.0
+			0.0 0.5 6.0
+			0.0 0.5 3.0
+	EndPolygon
+EndComponent
+Component CtrSectionFwdStr
+	Refer
+		Component CtrSectionFwd
+	EndRefer
+	Refer
+		Component CtrSectionFwdFt
+	EndRefer
+	Refer
+		Component CtrSectionFwdBk
+	EndRefer
+EndComponent
+Component Bumper
+	Extrusion
+		FaceColor gray20
+		Length 7.6
+		NumVerts 4
+		Data
+			0.0 0.5 3.0
+			0.0 0.5 3.8
+			0.0 -0.2 3.8
+			0.0 -0.2 3.0
+	EndExtrusion
+EndComponent
+Component BumperFt
+	Polygon
+		FaceColor gray9
+		NumVerts 4
+		Data
+			0.0 0.5 3.0
+			0.0 0.5 3.8
+			0.0 -0.2 3.8
+			0.0 -0.2 3.0
+	EndPolygon
+EndComponent
+Component BumperBk
+	Polygon
+		Translate 7.6 0.0 0.0
+		FaceColor gray9
+		NumVerts 4
+		Data
+			0.0 0.5 3.0
+			0.0 0.5 3.8
+			0.0 -0.2 3.8
+			0.0 -0.2 3.0
+	EndPolygon
+EndComponent
+Component BumperStr
+	Refer
+		Component Bumper
+	EndRefer
+	Refer
+		Component BumperFt
+	EndRefer
+	Refer
+		Component BumperBk
+	EndRefer
+EndComponent
+Component TruckBed
+	Extrusion
+		FaceColor gray20
+		Length 4.0
+		NumVerts 4
+		Data
+			0.0 4.1 3.0
+			0.0 30.0 3.0
+			0.0 30.0 4.7
+			0.0 5.3 4.7
+	EndExtrusion
+EndComponent
+Component TruckBedFt
+	Polygon
+		FaceColor gray20
+		NumVerts 4
+		Data
+			0.0 4.1 3.0
+			0.0 30.0 3.0
+			0.0 30.0 4.7
+			0.0 5.3 4.7
+	EndPolygon
+EndComponent
+Component TruckBedBk
+	Polygon
+		Translate 4.0 0.0 0.0
+		FaceColor gray20
+		NumVerts 4
+		Data
+			0.0 4.1 3.0
+			0.0 30.0 3.0
+			0.0 30.0 4.7
+			0.0 5.3 4.7
+	EndPolygon
+EndComponent
+Component TruckBedStr
+	Refer
+		Component TruckBed
+	EndRefer
+	Refer
+		Component TruckBedFt
+	EndRefer
+	Refer
+		Component TruckBedBk
+	EndRefer
+EndComponent
+Component UnderCarriage
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 6.0
+		NumVerts 5
+		Data
+			0.0 4.1 2.0
+			0.0 4.1 3.0
+			0.0 0.0 3.0
+			0.0 0.0 2.8
+			0.0 2.5 2.0
+	EndExtrusion
+EndComponent
+Component UnderCarriageFt
+	Polygon
+		FaceColor gray20
+		NumVerts 5
+		Data
+			0.0 4.1 2.0
+			0.0 4.1 3.0
+			0.0 0.0 3.0
+			0.0 0.0 2.8
+			0.0 2.5 2.0
+	EndPolygon
+EndComponent
+Component UnderCarriageBk
+	Polygon
+		Translate 6.0 0.0 0.0
+		FaceColor gray20
+		NumVerts 5
+		Data
+			0.0 4.1 2.0
+			0.0 4.1 3.0
+			0.0 0.0 3.0
+			0.0 0.0 2.8
+			0.0 2.5 2.0
+	EndPolygon
+EndComponent
+Component UnderCarriageStr
+	Refer
+		Component UnderCarriage
+	EndRefer
+	Refer
+		Component UnderCarriageFt
+	EndRefer
+	Refer
+		Component UnderCarriageBk
+	EndRefer
+EndComponent
+Component Hood
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 5.1
+		NumVerts 6
+		Data
+			0.0 4.3 6.0
+			0.0 4.3 6.1
+			0.0 0.5 6.1
+			0.0 0.1 5.95
+			0.0 0.1 5.9
+			0.0 0.5 6.0
+	EndExtrusion
+EndComponent
+Component HoodFt
+	Polygon
+		FaceColor gray20
+		NumVerts 6
+		Data
+			0.0 4.3 6.0
+			0.0 4.3 6.1
+			0.0 0.5 6.1
+			0.0 0.1 5.95
+			0.0 0.1 5.9
+			0.0 0.5 6.0
+	EndPolygon
+EndComponent
+Component HoodBk
+	Polygon
+		Translate 5.1 0.0 0.0
+		FaceColor gray20
+		NumVerts 6
+		Data
+			0.0 4.3 6.0
+			0.0 4.3 6.1
+			0.0 0.5 6.1
+			0.0 0.1 5.95
+			0.0 0.1 5.9
+			0.0 0.5 6.0
+	EndPolygon
+EndComponent
+Component HoodStr
+	Refer
+		Component Hood
+	EndRefer
+	Refer
+		Component HoodFt
+	EndRefer
+	Refer
+		Component HoodBk
+	EndRefer
+EndComponent
+Component HoodDrvrSide
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 3.0
+		NumVerts 6
+		Data
+			0.0 1.0 6.0
+			0.0 1.0 6.1
+			0.0 0.5 6.1
+			0.0 0.1 5.95
+			0.0 0.1 5.9
+			0.0 0.5 6.0
+	EndExtrusion
+EndComponent
+Component HoodDrvrSideFt
+	Polygon
+		FaceColor gray20
+		NumVerts 6
+		Data
+			0.0 1.0 6.0
+			0.0 1.0 6.1
+			0.0 0.5 6.1
+			0.0 0.1 5.95
+			0.0 0.1 5.9
+			0.0 0.5 6.0
+	EndPolygon
+EndComponent
+Component HoodDrvrSideBk
+	Polygon
+		Translate 3.0 0.0 0.0
+		FaceColor gray20
+		NumVerts 6
+		Data
+			0.0 1.0 6.0
+			0.0 1.0 6.1
+			0.0 0.5 6.1
+			0.0 0.1 5.95
+			0.0 0.1 5.9
+			0.0 0.5 6.0
+	EndPolygon
+EndComponent
+Component HoodDrvrSideStr
+	Refer
+		Component HoodDrvrSide
+	EndRefer
+	Refer
+		Component HoodDrvrSideFt
+	EndRefer
+	Refer
+		Component HoodDrvrSideBk
+	EndRefer
+EndComponent
+Component FrontDrvrSide
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 3.0
+		NumVerts 4
+		Data
+			0.0 0.5 4.0
+			0.0 0.5 6.0
+			0.0 0.0 6.0
+			0.0 0.0 4.0
+	EndExtrusion
+EndComponent
+Component FrontDrvrSideFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 0.5 4.0
+			0.0 0.5 6.0
+			0.0 0.0 6.0
+			0.0 0.0 4.0
+	EndPolygon
+EndComponent
+Component FrontDrvrSideBk
+	Polygon
+		Translate 3.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 4
+		Data
+			0.0 0.5 4.0
+			0.0 0.5 6.0
+			0.0 0.0 6.0
+			0.0 0.0 4.0
+	EndPolygon
+EndComponent
+Component FrontDrvrSideStr
+	Refer
+		Component FrontDrvrSide
+	EndRefer
+	Refer
+		Component FrontDrvrSideFt
+	EndRefer
+	Refer
+		Component FrontDrvrSideBk
+	EndRefer
+EndComponent
+Component Light
+	Revolve
+		FaceColor linen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 3
+		Data
+			0.0 0.3 0.0
+			0.1 0.3 0.0
+			0.1 0.005 0.0
+	EndRevolve
+EndComponent
+Component LightRim
+	Revolve
+		FaceColor gray30
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 4
+		Data
+			0.1 0.3 0.0
+			0.2 0.3 0.0
+			0.2 0.4 0.0
+			0.0 0.4 0.0
+	EndRevolve
+EndComponent
+Component HeadLightStr
+	Refer
+		Component Light
+	EndRefer
+	Refer
+		Component LightRim
+	EndRefer
+EndComponent
+Component BoxRtSide
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 2.0
+		NumVerts 6
+		Data
+			0.0 6.4 5.0
+			0.0 6.4 6.6
+			0.0 6.0 8.5
+			0.0 4.7 8.5
+			0.0 4.3 7.5
+			0.0 4.3 5.0
+	EndExtrusion
+EndComponent
+Component BoxRtSideFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 6.4 5.0
+			0.0 6.4 6.6
+			0.0 6.0 8.5
+			0.0 4.7 8.5
+			0.0 4.3 7.5
+			0.0 4.3 5.0
+	EndPolygon
+EndComponent
+Component BoxRtSideBk
+	Polygon
+		Translate 2.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 6.4 5.0
+			0.0 6.4 6.6
+			0.0 6.0 8.5
+			0.0 4.7 8.5
+			0.0 4.3 7.5
+			0.0 4.3 5.0
+	EndPolygon
+EndComponent
+Component BoxRtSideStr
+	Refer
+		Component BoxRtSide
+	EndRefer
+	Refer
+		Component BoxRtSideFt
+	EndRefer
+	Refer
+		Component BoxRtSideBk
+	EndRefer
+EndComponent
+Component LeftSideBox
+	Skin
+		FaceColor DarkOliveGreen
+		NumFrames 2
+		NumFramePts 6
+		Data
+			0.0 6.4 5.0
+			0.0 6.4 6.1
+			0.0 6.4 8.5
+			0.0 4.3 8.5
+			0.0 4.3 6.1
+			0.0 4.3 5.0
+			
+			6.0 6.4 5.0
+			6.0 6.4 6.1
+			5.4 6.4 8.5
+			5.4 4.3 8.5
+			6.0 4.3 6.1
+		6.0 4.3 5.0
+	EndSkin
+EndComponent
+
+Component BoxLtSideFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 6.4 5.0
+			0.0 6.4 6.1
+			0.0 6.4 8.5
+			0.0 4.3 8.5
+			0.0 4.3 6.1
+			0.0 4.3 5.0
+	EndPolygon
+EndComponent
+Component BoxLtSideBk
+	Polygon
+		Translate 6.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 6.4 5.0
+			0.0 6.4 6.1
+			-0.6 6.4 8.5
+			-0.6 4.3 8.5
+			0.0 4.3 6.1
+			0.0 4.3 5.0
+	EndPolygon
+EndComponent
+Component BoxLtSideStr
+	Refer
+		Component LeftSideBox
+	EndRefer
+	Refer
+		Component BoxLtSideFt
+	EndRefer
+	Refer
+		Component BoxLtSideBk
+	EndRefer
+EndComponent
+Component Roof
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 2.5
+		NumVerts 5
+		Data
+			0.0 4.3 8.0
+			0.0 4.3 8.5
+			0.0 1.0 8.25
+			0.0 0.8 8.15
+			0.0 0.75 8.0
+	EndExtrusion
+EndComponent
+Component RoofFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 5
+		Data
+			0.0 4.3 8.0
+			0.0 4.3 8.5
+			0.0 1.0 8.25
+			0.0 0.8 8.15
+			0.0 0.75 8.0
+	EndPolygon
+EndComponent
+Component RoofBk
+	Polygon
+		Translate 2.5 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 5
+		Data
+			0.0 4.3 8.0
+			0.0 4.3 8.5
+			0.0 1.0 8.25
+			0.0 0.8 8.15
+			0.0 0.75 8.0
+	EndPolygon
+EndComponent
+Component RoofStr
+	Refer
+		Component Roof
+	EndRefer
+	Refer
+		Component RoofFt
+	EndRefer
+	Refer
+		Component RoofBk
+	EndRefer
+EndComponent
+Component RoofPost
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 6
+		NumVerts 2
+		Data
+			0.0 0.15 0.0
+			2.21 0.15 0.0
+	EndRevolve
+EndComponent
+Component RoofAssm
+	Refer
+		Translate 5.0 0.0 0.0
+		Component RoofStr
+	EndRefer
+	Refer
+		Rotate 0.0 -112.0 -60.0
+		Translate 7.8 0.17 6.05
+		Component RoofPost
+	EndRefer
+	Refer
+		Rotate 0.0 -70.0 90.0
+		Translate 5.1 0.17 6.0
+		Component RoofPost
+	EndRefer
+EndComponent
+Component Wheel
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 12
+		NumVerts 5
+		Data
+			0.0 2.25 0.0
+			1.2 2.25 0.0
+			1.5 2.05 0.0
+			1.5 1.2 0.0
+			1.4 1.0 0.0
+	EndRevolve
+EndComponent
+Component WheelRim
+	Revolve
+		FaceColor gray20
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 12
+		NumVerts 5
+		Data
+			1.4 1.0 0.0
+			1.0 0.9 0.0
+			1.0 0.7 0.0
+			1.5 0.7 0.0
+			1.5 0.1 0.0
+	EndRevolve
+EndComponent
+Component RimLug
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 3
+		Data
+			1.5 0.10 0.0
+			1.6 0.05 0.0
+			1.6 0.005 0.0
+	EndRevolve
+EndComponent
+Component ToolBox
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 4.0
+		NumVerts 6
+		Data
+			0.0 0.1 0.0
+			0.0 2.0 0.0
+			0.0 2.0 1.5
+			0.0 0.2 1.5
+			0.0 0.2 0.7
+			0.0 0.0 0.55
+	EndExtrusion
+EndComponent
+Component ToolBoxFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 0.1 0.0
+			0.0 2.0 0.0
+			0.0 2.0 1.5
+			0.0 0.2 1.5
+			0.0 0.2 0.7
+			0.0 0.0 0.55
+	EndPolygon
+EndComponent
+Component ToolBoxBk
+	Polygon
+		Translate 4.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 0.1 0.0
+			0.0 2.0 0.0
+			0.0 2.0 1.5
+			0.0 0.2 1.5
+			0.0 0.2 0.7
+			0.0 0.0 0.55
+	EndPolygon
+EndComponent
+
+Component ToolBoxStr
+	Refer
+		Component ToolBox
+	EndRefer
+	Refer
+		Component ToolBoxFt
+	EndRefer
+	Refer
+		Component ToolBoxBk
+	EndRefer
+EndComponent
+Component ToolBoxVert
+	Revolve
+		FaceColor DarkOliveGreen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 4
+		NumVerts 3
+		Data
+			0.0 0.005 0.0
+			0.0 0.09 0.0
+			0.9 0.09 0.0
+	EndRevolve
+EndComponent
+Component ToolBoxAssm
+	Refer
+		Component ToolBoxStr
+	EndRefer
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 1.0 0.2 0.6
+		Component ToolBoxVert
+	EndRefer
+	Refer
+		Rotate 0.0 -90.0 0.0
+		Translate 3.0 0.2 0.6
+		Component ToolBoxVert
+	EndRefer
+EndComponent
+Component PersonelBox
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 2.0
+		NumVerts 14
+		Data
+			0.0 3.7 0.0
+			0.0 3.7 0.3
+			0.0 3.8 0.3
+			0.0 3.8 2.05
+			0.0 3.7 2.2
+			0.0 2.65 3.45
+			0.0 2.45 3.50
+			0.0 -2.45 3.50
+			0.0 -2.65 3.45
+			0.0 -3.7 2.2
+			0.0 -3.8 2.05
+			0.0 -3.8 0.3
+			0.0 -3.7 0.3
+			0.0 -3.7 0.0
+	EndExtrusion
+EndComponent
+Component PersonelBoxFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 14
+		Data
+			0.0 3.7 0.0
+			0.0 3.7 0.3
+			0.0 3.8 0.3
+			0.0 3.8 2.05
+			0.0 3.7 2.2
+			0.0 2.65 3.45
+			0.0 2.45 3.50
+			0.0 -2.45 3.50
+			0.0 -2.65 3.45
+			0.0 -3.7 2.2
+			0.0 -3.8 2.05
+			0.0 -3.8 0.3
+			0.0 -3.7 0.3
+			0.0 -3.7 0.0
+	EndPolygon
+EndComponent
+Component PersonelBoxBk
+	Polygon
+		Translate 2.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 14
+		Data
+			0.0 3.7 0.0
+			0.0 3.7 0.3
+			0.0 3.8 0.3
+			0.0 3.8 2.05
+			0.0 3.7 2.2
+			0.0 2.65 3.45
+			0.0 2.45 3.50
+			0.0 -2.45 3.50
+			0.0 -2.65 3.45
+			0.0 -3.7 2.2
+			0.0 -3.8 2.05
+			0.0 -3.8 0.3
+			0.0 -3.7 0.3
+			0.0 -3.7 0.0
+	EndPolygon
+EndComponent
+
+Component PersonelBoxStr
+	Refer
+		Component PersonelBox
+	EndRefer
+	Refer
+		Component PersonelBoxFt
+	EndRefer
+	Refer
+		Component PersonelBoxBk
+	EndRefer
+EndComponent
+
+Component CrewBox
+	Extrusion
+		FaceColor DarkOliveGreen
+		Length 22.0
+		NumVerts 6
+		Data
+			0.0 4.0 0.0
+			0.0 4.0 6.0
+			0.0 3.0 7.0
+			0.0 -3.0 7.0
+			0.0 -4.0 6.0
+			0.0 -4.0 0.0
+	EndExtrusion
+EndComponent
+Component CrewBoxFt
+	Polygon
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 4.0 0.0
+			0.0 4.0 6.0
+			0.0 3.0 7.0
+			0.0 -3.0 7.0
+			0.0 -4.0 6.0
+			0.0 -4.0 0.0
+	EndPolygon
+EndComponent
+Component CrewBoxBk
+	Polygon
+		Translate 22.0 0.0 0.0
+		FaceColor DarkOliveGreen
+		NumVerts 6
+		Data
+			0.0 4.0 0.0
+			0.0 4.0 6.0
+			0.0 3.0 7.0
+			0.0 -3.0 7.0
+			0.0 -4.0 6.0
+			0.0 -4.0 0.0
+	EndPolygon
+EndComponent
+Component CrewBoxStr
+	Refer
+		Component CrewBox
+	EndRefer
+	Refer
+#NoDraw
+		Component CrewBoxFt
+	EndRefer
+	Refer
+		Component CrewBoxBk
+	EndRefer
+EndComponent
+Component WheelStr
+	Refer
+		Component Wheel
+	EndRefer
+	Refer
+		Component WheelRim
+	EndRefer
+	Refer
+		Component RimLug
+	EndRefer
+EndComponent
+Component WheelAssm
+	Refer
+		Translate 6.5 6.9 2.25
+		Component WheelStr
+	EndRefer
+	Refer
+		Translate 6.5 11.75 2.25
+		Component WheelStr
+	EndRefer
+	Refer
+		Translate 6.5 21.0 2.25
+		Component WheelStr
+	EndRefer
+	Refer
+		Translate 6.5 25.85 2.25
+		Component WheelStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 90.0
+		Translate 8.0 14.5 1.6
+		Component ToolBoxAssm
+	EndRefer
+EndComponent
+Component Body
+	Rotate 0.0 0.0 90.0
+	Translate 10.0 -4.0 0.0
+	Refer
+		Component WheelAssm
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 180.0
+		Translate 8.0 32.65 0.0
+		Component WheelAssm
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 3.8 8.5 4.7
+		Component PersonelBoxStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 3.8 30 4.7
+		Component CrewBoxStr
+	EndRefer
+	Refer
+		Component RightSideStr
+	EndRefer
+	Refer
+		Translate 7.8 0.0 0.0
+		Component LeftSideStr
+	EndRefer
+	Refer
+		Translate 0.2 0.0 0.0
+		Component CtrSectionFwdStr
+	EndRefer
+	Refer
+		Translate 0.2 0.0 0.0
+		Component BumperStr
+	EndRefer
+	Refer
+		Translate 2.0 0.0 0.0
+		Component TruckBedStr
+	EndRefer
+	Refer
+		Translate 1.0 0.0 0.0
+		Component UnderCarriageStr
+	EndRefer
+	Refer
+		Translate 0.2 0.0 0.0
+		Component HoodStr
+	EndRefer
+	Refer
+		Translate 5.0 0.0 0.0
+		Component HoodDrvrSideStr
+	EndRefer
+	Refer
+		Translate 4.8 0.0 -0.1
+		Component FrontDrvrSideStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 7.4 0.0 4.8
+		Component HeadLightStr
+	EndRefer
+	Refer
+		Rotate 0.0 0.0 -90.0
+		Translate 0.6 0.0 4.8
+		Component HeadLightStr
+	EndRefer
+	Refer
+		Translate -0.1 0.0 0.0
+		Component BoxRtSideStr
+	EndRefer
+	Refer
+		Translate 2.0 0.0 0.0
+		Component BoxLtSideStr
+	EndRefer
+	Refer
+		Component RoofAssm
+	EndRefer
+EndComponent
+Component MilitaryTruck
+	Root
+	Refer
+		UniformScale .3048
+		Component Body
+	EndRefer
+EndComponent
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+# 1/14/97    products only.  Any other use is expressly forbidden.             #
+################################################################################

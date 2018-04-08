@@ -1,0 +1,361 @@
+################################################################################
+#            COPYRIGHT 1998 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#Model Builder:Jim Poland
+#DOM 21 Mar '98_sc
+#Manufacturer/Contractor:? 
+#Name: Patriot Misslie Battery
+#Width:2.3 m 
+#Length:3.3 m 
+#Height:4 m 
+#Articulations:(Yes)
+
+Component HydraulicCyl
+    Revolve
+	FaceColor gray40
+	FaceStyle Filled
+        StartAngle 0.0
+        EndAngle 359.99
+        NumRevolve 10
+        NumVerts 4
+        Data
+	0.0 0.1 0.0
+	3.0 0.1 0.0
+	3.0 0.2 0.0
+	9.0 0.2 0.0 	
+    EndRevolve
+EndComponent
+Component MountingPlt
+    Revolve
+	FaceColor gray40
+	FaceStyle Filled
+        StartAngle 0.0
+        EndAngle 359.99
+        NumRevolve 10
+        NumVerts 4
+        Data
+	0.0 0.005 0.0
+	0.0 4.0 0.0
+	0.4 4.0 0.0
+	0.4 0.005 0.0 	
+    EndRevolve
+EndComponent
+Component Brace
+    Extrusion
+	FaceColor gray40
+	FaceStyle Filled
+        Length 4.0
+        NumVerts 4
+        Data
+	0.0 0.1 -0.3
+	0.0 0.1 0.3
+	0.0 -0.1 0.3
+	0.0 -0.1 -0.3
+    EndExtrusion
+EndComponent
+Component BraceFt
+	Polygon
+	FaceColor gray40
+	FaceStyle Filled
+	NumVerts 4
+	Data
+	0.0 0.1 -0.3
+	0.0 0.1 0.3
+	0.0 -0.1 0.3
+	0.0 -0.1 -0.3
+	EndPolygon
+EndComponent
+Component BraceBk
+	Polygon
+	Translate 4.0 0.0 0.0
+	FaceColor gray40
+	FaceStyle Filled
+	NumVerts 4
+	Data
+	0.0 0.1 -0.3
+	0.0 0.1 0.3
+	0.0 -0.1 0.3
+	0.0 -0.1 -0.3
+	EndPolygon
+EndComponent
+Component BraceStr
+    Refer
+        Component Brace
+    EndRefer
+    Refer
+        Component BraceFt
+    EndRefer
+    Refer
+        Component BraceBk
+    EndRefer
+EndComponent
+Component SprtStr
+    Refer
+	Rotate 0.0 0.0 90.0
+	Translate 10.0 -2.0 -2.4
+        Component BraceStr
+    EndRefer
+   Refer
+	Rotate 0.0 0.0 90.0
+	Translate 0.0 -2.0 -2.4
+        Component BraceStr
+    EndRefer
+    Refer
+	Rotate 0.0 150.0 0.0
+	Translate 10.0 -1.5 -2.4
+        Component HydraulicCyl
+    EndRefer
+    Refer
+	Rotate 0.0 150.0 0.0
+	Translate 10.0 1.5 -2.4
+        Component HydraulicCyl
+    EndRefer
+   Refer
+	Rotate 0.0 150.0 0.0
+	Translate 1.5 0.0 -5.5
+        Component MountingPlt
+    EndRefer
+EndComponent
+Component BoxRings
+    Revolve
+	Rotate 45.0 0.0 0.0
+	FaceColor SaddleBrown
+	FaceStyle Filled
+        StartAngle 0.0
+        EndAngle 359.99
+        NumRevolve 4
+        NumVerts 4
+        Data
+	0.0 2.82 0.0
+	0.0 3.1 0.0
+	0.3 3.1 0.0
+	0.3 2.82 0.0 	
+    EndRevolve
+EndComponent
+Component Box
+    Extrusion
+	FaceColor SaddleBrown
+	FaceStyle Filled
+        Length 12.0
+        NumVerts 4
+        Data
+	0.0 2.0 -2.0
+	0.0 2.0 2.0
+	0.0 -2.0 2.0
+	0.0 -2.0 -2.0
+    EndExtrusion
+EndComponent
+Component BoxFt
+	Polygon
+	FaceColor sienna
+	FaceStyle Filled
+	NumVerts 4
+	Data
+	0.0 2.0 -2.0
+	0.0 2.0 2.0
+	0.0 -2.0 2.0
+	0.0 -2.0 -2.0
+	
+	EndPolygon
+EndComponent
+Component BoxBk
+	Polygon
+	Translate 12.0 0.0 0.0
+	FaceColor SaddleBrown
+	FaceStyle Filled
+	NumVerts 4
+	Data
+	0.0 2.0 -2.0
+	0.0 2.0 2.0
+	0.0 -2.0 2.0
+	0.0 -2.0 -2.0
+	EndPolygon
+EndComponent
+Component BoxStr
+    Refer
+        Component Box
+    EndRefer
+    Refer
+        Component BoxFt
+    EndRefer
+    Refer
+        Component BoxBk
+    EndRefer
+EndComponent
+Component BoxAssm
+    Refer
+        Component BoxStr
+    EndRefer
+    Refer
+	Translate -0.1 0.0 0.0
+        Component BoxRings
+    EndRefer
+    Refer
+	Translate 2 0.0 0.0
+        Component BoxRings
+    EndRefer
+    Refer
+	Translate 4 0.0 0.0
+        Component BoxRings
+    EndRefer
+    Refer
+	Translate 6 0.0 0.0
+        Component BoxRings
+    EndRefer
+    Refer
+	Translate 8 0.0 0.0
+        Component BoxRings
+    EndRefer
+    Refer
+	Translate 10 0.0 0.0
+        Component BoxRings
+    EndRefer
+    Refer
+	Translate 11.9 0.0 0.0
+        Component BoxRings
+    EndRefer
+EndComponent
+Component PatriotBody
+    Revolve
+	FaceColor linen
+	FaceStyle Filled
+        StartAngle 0.0
+        EndAngle 359.99
+        NumRevolve 16
+        NumVerts 8
+        Data
+	0.0 0.005 0.0
+	0.2 0.14 0.0 
+	0.5 0.3 0.0
+	0.7 0.36 0.0
+	0.9 0.40 0.0
+	1.1 0.43 0.0
+	1.2 0.44 0.0
+	11.0 0.44 0.0
+    EndRevolve
+EndComponent
+Component Exhaust
+    Revolve
+	FaceColor gray9
+	FaceStyle Filled
+        StartAngle 0.0
+        EndAngle 359.99
+        NumRevolve 10
+        NumVerts 4
+        Data
+	10.6 0.18 0.0
+	10.7 0.18 0.0
+	11.1 0.40 0.0
+	11.0 0.40 0.0
+    EndRevolve
+EndComponent
+Component TailFin
+     Skin
+	Rotate 0.0 0.0 -90.0	
+	Translate 0.0 0.0 0.0
+	FaceColor gray40
+	FaceStyle Filled
+	NumFrames 2
+	NumFramePts 4
+	Data
+	0.44 11.0 0.0
+	0.44 10.2 0.0.03
+	0.44 9.8 0.0
+	0.44 10.2 -0.03
+
+	0.9 11.0 0.0
+	0.9 10.45 0.01
+	0.9 10.3 0.0
+	0.9 10.45 -0.01	
+    EndSkin  
+EndComponent
+Component PatriotBodyStr
+    Refer
+        Component PatriotBody
+    EndRefer
+    Refer
+        Component Exhaust
+    EndRefer
+    Refer
+	Rotate 0.0 0.0 0.0
+	Translate 0.0 0.0 0.0
+        Component TailFin
+    EndRefer
+    Refer
+	Rotate 90.0 0.0 0.0
+	Translate 0.0 0.0 0.0
+        Component TailFin
+    EndRefer
+    Refer
+	Rotate 180.0 0.0 0.0
+	Translate 0.0 0.0 0.0
+        Component TailFin
+    EndRefer
+    Refer
+	Rotate 270.0 0.0 0.0
+	Translate 0.0 0.0 0.0
+        Component TailFin
+    EndRefer
+EndComponent
+Component PatriotBodyAssm
+    Refer
+	Articulation Pat1
+	 xTranslate MoveX -1000 0 0
+	EndArticulation
+	Rotate 30.0 0.0 180.0
+	Translate 12.0 -1.0 1.0	
+        Component PatriotBodyStr
+    EndRefer
+    Refer
+	Articulation Pat2
+	 xTranslate MoveX -1000 0 0
+	EndArticulation
+	Rotate 30.0 0.0 180.0
+	Translate 12.0 1.0 1.0
+        Component PatriotBodyStr
+    EndRefer
+    Refer
+	Articulation Pat3
+	 xTranslate MoveX -1000 0 0
+	EndArticulation
+	Rotate 30.0 0.0 180.0
+	Translate 12.0 -1.0 -1.0	
+        Component PatriotBodyStr
+    EndRefer
+    Refer
+	Articulation Pat4
+	 xTranslate MoveX -1000 0 0
+	EndArticulation
+	Rotate 30.0 0.0 180.0
+	Translate 12.0 1.0 -1.0
+        Component PatriotBodyStr
+    EndRefer
+EndComponent
+Component Body
+	Rotate 0.0 -60.0 0.0
+	Translate 0.0 0.0 1.8
+    Refer
+        Component PatriotBodyAssm
+    EndRefer
+    Refer
+        Component BoxAssm
+    EndRefer
+    Refer
+        Component SprtStr
+    EndRefer
+EndComponent
+Component PATRIOT
+	Root
+	Refer
+	Component Body
+	UniformScale .3048
+	EndRefer
+EndComponent
+
+################################################################################
+#            COPYRIGHT 1998 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################

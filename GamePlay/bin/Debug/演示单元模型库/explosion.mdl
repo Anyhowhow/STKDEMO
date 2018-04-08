@@ -1,0 +1,85 @@
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#Model Builder:n/a
+#DOM 21 Mar '98_sc
+#Manufacturer/Contractor:n/a 
+#Name:Nuclear Detination
+#Width:n/a m 
+#Length:n/a m 
+#Height:n/a m 
+#Articulations:(Yes)
+
+
+Component OuterShell
+	Sphere
+		Translucency 0.8
+		FaceColor yellow
+		Radius 10
+		Slices 64
+		Stacks 64
+	EndSphere
+EndComponent
+Component Sphere1
+	Sphere
+		Translucency 0.7
+		FaceColor orange
+		Radius 7
+		Slices 32
+		Stacks 32
+	EndSphere
+EndComponent
+Component Sphere2
+	Sphere
+		Translucency 0.6
+		FaceColor red
+		FaceEmissionColor red
+		Radius 4
+		Slices 32
+		Stacks 32
+	EndSphere
+EndComponent
+Component Sphere3
+	Sphere
+		Translucency 0.8
+		FaceColor AliceBlue
+		Radius 14
+		Slices 32
+		Stacks 32
+	EndSphere
+EndComponent
+Component OuterBody
+	Refer
+		Component Sphere3
+	EndRefer
+EndComponent
+Component Body
+	Articulation Boom
+		uniformScale ScaleAll 0 0.15 10
+	EndArticulation
+	Refer
+		Component OuterShell
+	EndRefer
+	Refer
+		Component Sphere1
+	EndRefer
+	Refer
+		Component Sphere2
+	EndRefer
+	Refer
+		Component OuterBody
+	EndRefer
+EndComponent
+Component NuclearFireball
+	Root
+	Refer
+		Component Body
+	EndRefer
+EndComponent
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################

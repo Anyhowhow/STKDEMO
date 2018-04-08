@@ -1,0 +1,30 @@
+/* XPM */
+static char * StoredViews[] = {
+/**/
+"16 16 8 1",
+/**/
+" 	c #9C9C9C9C9C9C",
+".	c #00000000EFEF",
+"X	c black",
+"o	c #0000CECEFFFF",
+"O	c white",
+"+	c blue",
+"@	c yellow",
+"#	c slate gray",
+/**/
+"    .XXXX.      ",
+"  .XXXooXXX.    ",
+"  XOXOOooXOX    ",
+" XOX.OOXo.XOX   ",
+"XXOXooXXooXOXX  ",
+"XOOX.ooOo.XOOX  ",
+"XXOOX.oooXOOXX  ",
+"  XXXXX+++++++++",
+"       +@O@X@OX+",
+"       +O@O@OX#+",
+"       +@O@OX#@+",
+"       +X@OX#@X+",
+"       +@O@OXO@+",
+"       +O@O@#XO+",
+"       +@O@X@#@+",
+"       +++++++++"};

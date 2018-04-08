@@ -1,0 +1,507 @@
+stk.v.9.0
+WrittenBy    STK_v9.2.2
+
+BEGIN GroundVehicle
+
+Name		GroundVehicle1
+
+BEGIN VehiclePath
+	CentralBody				Earth
+
+    BEGIN Interval
+
+         StartTime            8 Apr 2015 04:00:00.000000000
+         StopTime             8 Apr 2015 04:16:55.367958134
+
+    END Interval
+
+	StoreEphemeris				Yes
+	SmoothInterp				No
+
+    BEGIN GreatArc
+
+        VersionIndicator      20071204
+        Method              DetTimeAccFromVel
+
+        TimeOfFirstWaypoint 8 Apr 2015 04:00:00.000000000
+
+    UseScenTime          No
+        ArcGranularity      5.729577951308e-001
+        AltRef              WGS84
+        AltInterpMethod     EllipsoidHeight
+        NumberOfWaypoints   2
+
+        BEGIN Waypoints
+
+        0.000000000000e+000 2.975292664000e+001 6.892602472000e+001 0.000000000000e+000 2.682240000000e+001 0.000000000000e+000
+        1.015367958134e+003 2.955482949000e+001 6.875962312000e+001 0.000000000000e+000 2.682240000000e+001 0.000000000000e+000
+
+        END Waypoints
+
+    END GreatArc
+
+END VehiclePath
+
+BEGIN Ephemeris
+
+NumberOfEphemerisPoints 2
+
+ScenarioEpoch            8 Apr 2015 04:00:00.000000
+
+# Epoch in JDate format: 2457120.66666666666667
+# Epoch in YYDDD format:   15098.16666666666667
+
+
+InterpolationMethod     GreatArc
+
+InterpolationSamplesM1      1
+
+CentralBody             Earth
+
+CoordinateSystem        Fixed 
+
+BlockingFactor          20
+
+# Time of first point: 8 Apr 2015 04:00:00.000000000 UTCG = 2457120.66666666666667 JDate = 15098.16666666666667 YYDDD
+
+EphemerisTimePosVel
+
+0.00000000000000e+000 1.99271748627513e+006 5.17124042746566e+006 3.14662543037684e+006 1.86771764459424e+001 4.29809575673003e+000 -1.87651430752104e+001
+1.01536795813427e+003 2.01166353500342e+006 5.17555736970625e+006 3.12754292876046e+006 1.86412892270133e+001 4.20493261490990e+000 -1.88218495217369e+001
+
+
+END Ephemeris
+
+BEGIN MassProperties
+
+	Mass           1.000000000000e+003
+	InertiaXX      4.500000000000e+003
+	InertiaYX      0.000000000000e+000
+	InertiaYY      4.500000000000e+003
+	InertiaZX      0.000000000000e+000
+	InertiaZY      0.000000000000e+000
+	InertiaZZ      4.500000000000e+003
+
+END MassProperties
+
+BEGIN Attitude
+
+     	ScenarioEpoch		 8 Apr 2015 04:00:00.000000
+
+      BEGIN Profile
+          Name			 AircraftAtt
+          UserNamed			 No
+          StartTime			 0.000000000000e+000
+          BEGIN ECFVelRadial
+             	Azimuth		 0.000000000000e+000
+          END ECFVelRadial
+      END Profile
+
+END Attitude
+
+BEGIN Swath
+
+    SwathType           ElevAngle
+    ElevationAngle      0.000000000000e+000
+    HalfAngle           0.000000000000e+000
+    Distance            0.000000000000e+000
+    RepType             NoSwath
+
+END Swath
+
+BEGIN Eclipse
+
+    Sunlight                Off
+    SunlightColor           #ffff00
+    SunlightLineStyle       0
+    SunlightLineWidth       3
+    SunlightMarkerStyle     21
+
+    Penumbra                Off
+    PenumbraColor           #87cefa
+    PenumbraLineStyle       0
+    PenumbraLineWidth       3
+    PenumbraMarkerStyle     21
+
+    Umbra                   Off
+    UmbraColor              #0000ff
+    UmbraLineStyle          0
+    UmbraLineWidth          3
+    UmbraMarkerStyle        21
+
+    SunlightPenumbraLine    Off
+    PenumbraUmbraLine       Off
+
+    UseCustomEclipseBodies  No
+
+END Eclipse
+
+BEGIN RealTimeDef
+
+	HistoryDuration     1.800000000000e+003
+	LookAheadDuration   1.800000000000e+003
+
+END RealTimeDef
+
+
+BEGIN LineOfSightModel
+
+	ModelType     CbShape
+	HeightAboveSurface   0.000000000000e+000
+
+END LineOfSightModel
+
+
+BEGIN Extensions
+    
+    BEGIN Graphics
+
+        BEGIN GenericGraphics
+            ShowPassLabel        Off
+            ShowPathLabel        Off
+            TransformTrajectory  On
+            MinGfxGndTrkTimeStep 0.000000000000e+000
+            MaxGfxGndTrkTimeStep 6.000000000000e+002
+            MinGfxOrbitTimeStep  0.000000000000e+000
+            MaxGfxOrbitTimeStep  6.000000000000e+002
+            ShowGlintPoint       Off
+            ShowGlintColor       #ffffff
+            ShowGlintStyle       2
+        END GenericGraphics
+
+        BEGIN AttributeData
+
+            AttributeType    Basic
+            ScenarioEpoch 8 Apr 2015 04:00:00.000000
+
+            IntvlHideShowAll Off
+
+            BEGIN DefaultAttributes
+                Show                 On
+                Inherit              On
+                ShowLabel            On
+                ShowGndTrack         On
+                ShowGndMarker        On
+                ShowOrbit            On
+                ShowOrbitMarker      On
+                ShowElsetNum         Off
+                ShowSpecialSwath     On
+                MarkerColor          #00ff00
+                GroundTrackColor     #00ff00
+                SwathColor           #00ff00
+                LabelColor           #00ff00
+                LineStyle            0
+                LineWidth            1.000000
+                MarkerStyle          21
+                FontStyle            0
+                SwathLineStyle       0
+                SpecSwathLineStyle   1
+            END DefaultAttributes
+
+            BEGIN CustomIntervalList
+                BEGIN DefaultAttributes
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #00ff00
+                    GroundTrackColor     #00ff00
+                    SwathColor           #00ff00
+                    LabelColor           #00ff00
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END DefaultAttributes
+            END CustomIntervalList
+
+            BEGIN AccessIntervalsAttributes
+                BEGIN AttrDuringAccess
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #00ff00
+                    GroundTrackColor     #00ff00
+                    SwathColor           #00ff00
+                    LabelColor           #00ff00
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END AttrDuringAccess
+                BEGIN AttrDuringNoAccess
+                    Show                 Off
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #00ffff
+                    GroundTrackColor     #00ffff
+                    SwathColor           #00ffff
+                    LabelColor           #00ffff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END AttrDuringNoAccess
+            END AccessIntervalsAttributes
+
+            BEGIN RealTimeAttributes
+                BEGIN HistoryAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #00ff00
+                    GroundTrackColor     #00ff00
+                    SwathColor           #00ff00
+                    LabelColor           #00ff00
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END HistoryAttr
+                BEGIN SplineAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ffff00
+                    GroundTrackColor     #ffff00
+                    SwathColor           #ffff00
+                    LabelColor           #ffff00
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END SplineAttr
+                BEGIN LookAheadAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ffffff
+                    GroundTrackColor     #ffffff
+                    SwathColor           #ffffff
+                    LabelColor           #ffffff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END LookAheadAttr
+                BEGIN DropOutAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ff0000
+                    GroundTrackColor     #ff0000
+                    SwathColor           #ff0000
+                    LabelColor           #ff0000
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          21
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END DropOutAttr
+            END RealTimeAttributes
+        END AttributeData
+
+        BEGIN LeadTrailData
+                GtLeadingType             AllData
+                GtTrailingType            AllData
+                OrbitLeadingType          AllData
+                OrbitTrailingType         AllData
+        END LeadTrailData
+            BEGIN SaaData
+               ShowSaa            Off
+               ShowSaaFill        Off
+               SaaFillStyle       7
+               TrackSaa           On
+               SaaAltitude        500000.000000
+            END SaaData
+            Begin GroundTracks
+                Begin GroundTrack
+                    CentralBody  Earth
+                End GroundTrack
+            End GroundTracks
+            BEGIN WaypointData
+                ShowWayptMarkers           On
+                ShowWayptTurnMarkers       On
+                ShowWayptMarkersExtEphem   Off
+                NewWayptMarkerShow         On
+                NewWayptShowLabel          Off
+                NewWayptMarkerStyle        3
+                WayptShow                  On
+                WayptShowLabel             Off
+                WayptMarkerStyle           3
+            END WaypointData
+        BEGIN EllipseSetGxData
+            BEGIN DefEllipseSetGx
+                ShowStatic     On
+                ShowDynamic    On
+                UseLastDynPos  Off
+                HoldLastDynPos Off
+                ShowName       Off
+                ShowMarker     On
+                MarkerStyle    0
+                LineStyle      0
+                LineWidth      1.000000
+            END DefEllipseSetGx
+        END EllipseSetGxData
+    END Graphics
+    
+    BEGIN LaserCAT
+    END LaserCAT
+    
+    BEGIN ExternData
+    END ExternData
+    
+    BEGIN RFI
+    END RFI
+    
+    BEGIN ADFFileData
+    END ADFFileData
+    
+    BEGIN AccessConstraints
+		LineOfSight   IncludeIntervals 
+    END AccessConstraints
+    
+    BEGIN ObjectCoverage
+    END ObjectCoverage
+    
+    BEGIN Desc
+        ShortText    0
+
+        LongText    0
+
+    END Desc
+    
+    BEGIN Atmosphere
+<!-- STKv4.0 Format="XML" -->
+<STKOBJECT>
+<OBJECT Class = "AtmosphereExtension" Name = "STK_Atmosphere_Extension">
+    <OBJECT Class = "link" Name = "AtmosAbsorptionModel">
+        <OBJECT Class = "AtmosphericAbsorptionModel" Name = "Simple_Satcom">
+            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+            <OBJECT Class = "string" Name = "Description"> &quot;Simple Satcom gaseous absorption model&quot; </OBJECT>
+            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+            <OBJECT Class = "double" Name = "SurfaceTemperature"> 293.15 K </OBJECT>
+            <OBJECT Class = "string" Name = "Type"> &quot;Simple Satcom&quot; </OBJECT>
+            <OBJECT Class = "string" Name = "UserComment"> &quot;Simple Satcom gaseous absorption model&quot; </OBJECT>
+            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+            <OBJECT Class = "double" Name = "WaterVaporConcentration"> 7.5 g*m^-3 </OBJECT>
+        </OBJECT>
+    </OBJECT>
+    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+    <OBJECT Class = "string" Name = "Description"> &quot;STK Atmosphere Extension&quot; </OBJECT>
+    <OBJECT Class = "bool" Name = "EnableLocalRainData"> False </OBJECT>
+    <OBJECT Class = "bool" Name = "InheritAtmosAbsorptionModel"> True </OBJECT>
+    <OBJECT Class = "double" Name = "LocalRainIsoHeight"> 2000 m </OBJECT>
+    <OBJECT Class = "double" Name = "LocalRainRate"> 1 mm*hr^-1 </OBJECT>
+    <OBJECT Class = "double" Name = "LocalSurfaceTemp"> 293.15 K </OBJECT>
+    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+    <OBJECT Class = "string" Name = "Type"> &quot;STK Atmosphere Extension&quot; </OBJECT>
+    <OBJECT Class = "string" Name = "UserComment"> &quot;STK Atmosphere Extension&quot; </OBJECT>
+    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+</OBJECT>
+</STKOBJECT>
+    END Atmosphere
+    
+    BEGIN RCS
+	Inherited          True
+	LinearClutterCoef        1.000000e+000
+	BEGIN RCSBAND
+		LinearConstantValue      1.000000e+000
+		Swerling      0
+		BandData      3.000000e+006 3.000000e+011
+	END RCSBAND
+    END RCS
+    
+    BEGIN Ellipse
+        TimesTrackVehStartTime Yes
+    END Ellipse
+    
+    BEGIN Crdn
+    END Crdn
+    
+    BEGIN DIS
+
+		Begin Input
+
+
+		End Input
+
+
+		Begin Output
+
+			Enable                     Off
+			ForceID                    1
+			EntityID                   0:0:0
+			PriEntityType              0:0:0:0:0:0:0
+			AltEntityType              0:0:0:0:0:0:0
+			DistanceThresh             1.000000
+
+		End Output
+
+    END DIS
+    
+    BEGIN VO
+    END VO
+
+END Extensions
+
+BEGIN SubObjects
+
+END SubObjects
+
+END GroundVehicle
+

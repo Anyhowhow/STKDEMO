@@ -1,0 +1,365 @@
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#Model Builder:Jim Poland
+#DOM 21 Mar '98_sc
+#Manufacturer/Contractor:n/a 
+#Name: SA10_FDX_Launch
+#Width:7 m 
+#Length:7 m 
+#Height:4.8 m 
+#Articulations:(Yes)
+
+Component LauncherBody
+	Extrusion
+		FaceColor gray20
+		Length 10.5
+		NumVerts 15
+		Data
+			0.0 4.0 1.8
+			0.0 5.0 2.1
+			0.0 4.9 2.5
+			0.0 5.0 2.9
+			0.0 4.0 3.2
+			0.0 3.25 3.2
+			0.0 2.9 5.0
+			0.0 2.5 4.9
+			0.0 2.1 5.0
+			0.0 1.75 3.2
+			0.0 1.0 3.2
+			0.0 0.0 2.9
+			0.0 0.1 2.5
+			0.0 0.0 2.1
+			0.0 1.0 1.8
+	EndExtrusion
+EndComponent
+Component LauncherBodyFt
+	Polygon
+		FaceColor gray30
+		NumVerts 15
+		Data
+			0.0 4.0 1.8
+			0.0 5.0 2.1
+			0.0 4.9 2.5
+			0.0 5.0 2.9
+			0.0 4.0 3.2
+			0.0 3.25 3.2
+			0.0 2.9 5.0
+			0.0 2.5 4.9
+			0.0 2.1 5.0
+			0.0 1.75 3.2
+			0.0 1.0 3.2
+			0.0 0.0 2.9
+			0.0 0.1 2.5
+			0.0 0.0 2.1
+			0.0 1.0 1.8
+	EndPolygon
+EndComponent
+Component LauncherBodyBk
+	Polygon
+		Translate 10.5 0.0 0.0
+		FaceColor gray30
+		NumVerts 15
+		Data
+			0.0 4.0 1.8
+			0.0 5.0 2.1
+			0.0 4.9 2.5
+			0.0 5.0 2.9
+			0.0 4.0 3.2
+			0.0 3.25 3.2
+			0.0 2.9 5.0
+			0.0 2.5 4.9
+			0.0 2.1 5.0
+			0.0 1.75 3.2
+			0.0 1.0 3.2
+			0.0 0.0 2.9
+			0.0 0.1 2.5
+			0.0 0.0 2.1
+			0.0 1.0 1.8
+	EndPolygon
+EndComponent
+Component LauncherBodyStr
+	Refer
+		Component LauncherBody
+	EndRefer
+	Refer
+		Component LauncherBodyFt
+	EndRefer
+	Refer
+		Component LauncherBodyBk
+	EndRefer
+EndComponent
+Component SA10Body
+	Revolve
+		FaceColor linen
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 16
+		NumVerts 12
+		Data
+			0.0 0.005 0.0
+			0.5 0.26 0.0
+			1.0 0.44 0.0
+			1.5 0.58 0.0
+			2.0 0.68 0.0
+			2.5 0.72 0.0
+			3.0 0.75 0.0
+			19.0 0.75 0.0
+			19.5 0.73 0.0
+			20.0 0.67 0.0
+			20.5 0.58 0.0
+			21.0 0.42 0.0
+	EndRevolve
+EndComponent
+Component Exhaust
+	Revolve
+		FaceColor gray9
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 4
+		Data
+			18.0 0.1 0.0
+			20.8 0.40 0.0
+			21.0 0.36 0.0
+			21.15 0.40 0.0
+	EndRevolve
+EndComponent
+Component Fin
+	Skin
+		Rotate 0.0 0.0 -90.0
+		Translate 8.0 -0.75 0.0
+		FaceColor gray40
+		NumFrames 3
+		NumFramePts 5
+		Data
+			0.0 8.0 0.0
+			0.0 4.85 0.15
+			0.0 0.0 0.0
+			0.0 4.85 -0.15
+			0.0 8.0 0.0
+						
+			1.0 7.0 0.0
+			1.0 5.42 0.1
+			1.0 3.0 0.0
+			1.0 5.42 -0.1
+			1.0 7.0 0.0
+						
+			1.95 6.02 0.0
+			1.95 5.95 0.01
+			1.95 5.9 0.0
+		1.95 5.95 -0.01
+		1.95 6.02 0.0
+	EndSkin
+EndComponent
+Component TailFin
+	Skin
+		Rotate 0.0 0.0 -90.0
+		Translate 16.0 0.0 0.0
+		FaceColor gray40
+		NumFrames 3
+		NumFramePts 5
+		Data
+			0.42 5.0 0.0
+			0.58 3.5 0.10
+			0.75 2.0 0.0
+			0.58 3.5 -0.10
+			0.42 5.0 0.0
+						
+			1.0 4.9 0.0
+			1.0 3.5 0.06
+			1.0 2.52 0.0
+			1.0 3.5 -0.06
+			1.0 4.9 0.0
+						
+			1.45 3.56 0.0
+			1.45 3.5 0.01
+			1.45 3.48 0.0
+		1.45 3.5 -0.01
+		1.45 3.56 0.0
+	EndSkin
+EndComponent
+Component SA10BodyAssm
+	Refer
+		Component SA10Body
+	EndRefer
+	Refer
+		Component Exhaust
+	EndRefer
+	Refer
+		Component Fin
+	EndRefer
+	Refer
+		Rotate 120.0 0.0 0.0
+		Component Fin
+	EndRefer
+	Refer
+		Rotate 240.0 0.0 0.0
+		Component Fin
+	EndRefer
+	Refer
+		Component TailFin
+	EndRefer
+	Refer
+		Rotate 120.0 0.0 0.0
+		Component TailFin
+	EndRefer
+	Refer
+		Rotate 240.0 0.0 0.0
+		Component TailFin
+	EndRefer
+EndComponent
+Component LauncherSubAssmStr
+	Refer
+		Translate 0.0 -2.5 0.0
+		Component LauncherBodyStr
+	EndRefer
+	Refer
+		Articulation SA101
+			xTranslate MoveX -1000 0 0
+		EndArticulation
+		Rotate 30.0 0.0 180.0
+		Translate 18.0 0.0 5.7
+		Component SA10BodyAssm
+	EndRefer
+	Refer
+		Articulation SA102
+			xTranslate MoveX -1000 0 0
+		EndArticulation
+		Rotate 10.0 0.0 180.0
+		Translate 18.0 3.2 2.5
+		Component SA10BodyAssm
+	EndRefer
+	Refer
+		Articulation SA103
+			xTranslate MoveX -1000 0 0
+		EndArticulation
+		Rotate 170.0 0.0 180.0
+		Translate 18.0 -3.2 2.5
+		Component SA10BodyAssm
+	EndRefer
+EndComponent
+Component LauncherSubAssm
+	Refer
+		Rotate 0.0 70.0 0.0
+		Translate 5.0 -0.0 5.0
+		Component LauncherSubAssmStr
+	EndRefer
+EndComponent
+Component Pedestal
+	Revolve
+		Translate 1.0 0.0 0.0
+		FaceColor gray20
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 16
+		NumVerts 5
+		Data
+			0.0 3.75 0.0
+			1.0 3.75 0.0
+			1.0 2.5 0.0
+			4.5 2.5 0.0
+			4.5 0.005 0.0
+	EndRevolve
+EndComponent
+Component SprtShaft
+	Revolve
+		FaceColor gray20
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 10
+		NumVerts 2
+		Data
+			0.0 1.5 0.0
+			5.0 1.5 0.0
+	EndRevolve
+EndComponent
+Component LaunchPad
+	Extrusion
+		FaceColor gray70
+		Length 1.0
+		NumVerts 4
+		Data
+			0.0 10.0 -10.0
+			0.0 10.0 10.0
+			0.0 -10.0 10.0
+			0.0 -10.0 -10.0
+	EndExtrusion
+EndComponent
+Component LaunchPadFt
+	Polygon
+		FaceColor gray70
+		NumVerts 4
+		Data
+			0.0 10.0 -10.0
+			0.0 10.0 10.0
+			0.0 -10.0 10.0
+			0.0 -10.0 -10.0
+	EndPolygon
+EndComponent
+Component LaunchPadBk
+	Polygon
+		Translate 1.0 0.0 0.0
+		FaceColor gray70
+		NumVerts 4
+		Data
+			0.0 10.0 -10.0
+			0.0 10.0 10.0
+			0.0 -10.0 10.0
+			0.0 -10.0 -10.0
+	EndPolygon
+EndComponent
+Component LaunchPadStr
+	Refer
+		Component LaunchPad
+	EndRefer
+	Refer
+		Component LaunchPadFt
+	EndRefer
+	Refer
+		Component LaunchPadBk
+	EndRefer
+EndComponent
+Component LauncherAssmRot
+	Refer
+		Component LauncherSubAssm
+	EndRefer
+	Refer
+		Component Pedestal
+	EndRefer
+	Refer
+		Translate 4.5 0.0 0.0
+		Component SprtShaft
+	EndRefer
+EndComponent
+Component LauncherAssm
+	Articulation LauncherRotX
+		xRotate XRot 0.0 0.0 360.0
+	EndArticulation
+	Refer
+		Component LauncherAssmRot
+	EndRefer
+EndComponent
+Component Body
+	Refer
+		Component LauncherAssm
+	EndRefer
+	Refer
+		Component LaunchPadStr
+	EndRefer
+EndComponent
+Component SA10Launcher
+	Root
+	UniformScale .3048
+	Rotate 0 270 0
+	Refer
+		Component Body
+	EndRefer
+EndComponent
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################

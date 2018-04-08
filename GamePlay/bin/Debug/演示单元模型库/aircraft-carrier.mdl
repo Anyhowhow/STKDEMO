@@ -1,0 +1,919 @@
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#DOM 20 Mar '98_sc
+#Manufacturer/Contractor Radar:
+#Manufacturer/Contractor Vessel:
+#Name,Radar:
+#Name,Vessel:
+#Class:Aircraft Carrier
+#Beam:? m 
+#Length:340 m 
+#Height:? m 
+#Articulations:(No)
+#All units in meters
+
+Component PortSide
+    Polygon
+		FrontfaceCCW No
+        FaceColor gray
+        NumVerts 30
+        Data
+            0 -50 0
+            75.8 -63 0
+            151.7 -65 0
+            303.3 -67 0
+            606.7 -67 0
+            682.5 -60.6 0
+            758.3 -48.5 0
+            834.2 -34.9 0
+            910 -18.2 0
+            970.6 -7.58 0
+            1008.6 -3.03 0
+            1046 -1 0
+            1049 0 0
+            1056.6 0 18.2
+            1068.1 0 33.4
+            1082.4 0 42.5
+            1092 0 59.1
+            1089 -12.3 59.1
+            1076.8 -21.2 59.1
+            1031 -37.9 59.1
+            970.6 -48.5 59.1
+            910 -57.6 59.1
+            758.3 -60.6 59.1
+            682.5 -60.6 59.1
+            606.7 -67 59.1
+            303.3 -67 59.1
+            151.7 -65 59.1
+            75.8 -63 59.1
+            0 -57.6 59.1
+            0 -54 20
+    EndPolygon
+EndComponent
+
+Component StarbrdSide
+    Polygon
+		FrontfaceCCW No
+        FaceColor gray
+        NumVerts 30
+        Data
+            0 50 0
+            75.8 63 0
+            151.7 65 0
+            303.3 67 0
+            606.7 67 0
+            682.5 60.6 0
+            758.3 48.5 0
+            834.2 34.9 0
+            910 18.2 0
+            970.6 7.58 0
+            1008.6 3.03 0
+            1046 1 0
+            1049 0 0
+            1056.6 0 18.2
+            1068.1 0 33.4
+            1082.4 0 42.5
+            1092 0 59.1
+            1089 12.3 59.1
+            1076.8 21.2 59.1
+            1031 37.9 59.1
+            970.6 48.5 59.1
+            910 57.6 59.1
+            758.3 60.6 59.1
+            682.5 60.6 59.1
+            606.7 67 59.1
+            303.3 67 59.1
+            151.7 65 59.1
+            75.8 63 59.1
+            0 57.6 59.1
+            0 54 20
+    EndPolygon
+EndComponent
+
+Component LowerStern
+    Polygon
+        FaceColor gray
+        NumVerts 6
+        Data
+            0 50 0
+            0 54 25
+            -10 40 25
+            -10 -40 25
+            0 -54 25
+            0 -50 0
+    EndPolygon
+EndComponent
+
+Component UpperStern
+    Polygon
+        FaceColor gray
+        NumVerts 10
+        Data
+            0 -32 46
+            0 -35 42
+            0 -35 25
+            0 -54 25
+            0 -57.6 59.1
+            0 57.6 59.1
+            0 54 25
+            0 35 25
+            0 35 42
+            0 32 46
+    EndPolygon
+EndComponent
+
+Component SternDeck
+    Polygon
+        FaceColor gray20
+        NumVerts 6
+        Data
+            -10 40 25
+            0 54 25
+            500 54 25
+            500 -54 25
+            0 -54 25
+            -10 -40 25
+    EndPolygon
+EndComponent
+
+Component SideIsl
+    Skin
+        FaceColor gray40
+        NumFrames 3
+        NumFramePts 7
+        Data
+            # Frame 0
+            0 170 35
+            0 0 35
+            0 0 12
+            0 15 0
+            0 155 0
+            0 170 15
+            0 170 35
+            # Frame 1
+            25 165 35
+            25 15 35
+            25 15 18
+            25 20 10
+            25 160 10
+            25 165 18
+            25 170 35
+            # Frame 2
+            0 170 35
+            0 0 35
+            45 25 35
+            45 25 35
+            45 160 35
+            45 165 35
+            0 170 35
+    EndSkin
+EndComponent
+
+Component SideIslStern
+    Skin
+        FaceColor gray40
+        NumFrames 3
+        NumFramePts 7
+        Data
+            # Frame 0
+            0 170 35
+            0 0 35
+            0 0 12
+            0 15 6
+            0 155 0
+            0 170 15
+            0 170 35
+            # Frame 1
+            25 165 35
+            25 13 35
+            25 13 20
+            25 20 14
+            25 160 10
+            25 165 18
+            25 170 35
+            # Frame 2
+            0 170 35
+            0 0 35
+            25 13 35
+            25 13 35
+            45 160 35
+            45 165 35
+            0 170 35
+    EndSkin
+EndComponent
+
+Component SideDeck
+    Polygon
+        FaceColor gray20
+        NumVerts 6
+        Data
+            0 170 35
+            0 0 35
+            0 10 15
+            0 12 15
+            0 162 -5
+            0 165 5
+    EndPolygon
+EndComponent
+
+Component HullAssm
+    Refer
+        Component PortSide
+    EndRefer
+    Refer
+        Component StarbrdSide
+    EndRefer
+    Refer
+        FrontfaceCCW No
+        Component LowerStern
+    EndRefer
+    Refer
+        Component UpperStern
+    EndRefer
+    Refer
+        Component SternDeck
+    EndRefer
+    Refer
+        Rotate 0 0 -90
+        Translate 240 -66 24
+        Component SideIsl
+    EndRefer
+    Refer
+        Rotate 0 0 -90
+        Translate 0 -54 24
+        Component SideIslStern
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 3 -95 59.5
+        Component SideDeck
+    EndRefer
+    Refer
+        Scale 1 0.5 1
+        Rotate 0 0 -90
+        Translate 500 -66 24
+        Component SideIsl
+    EndRefer
+    Refer
+        Scale 1 0.5 1
+        Rotate 0 0 -90
+        Translate 650 -66 24
+        Component SideIsl
+    EndRefer
+    Refer
+        FrontfaceCCW No
+        Scale -1 3.6 1
+        Rotate 0 0 -90
+        Translate 75 66 24
+        Component SideIsl
+    EndRefer
+EndComponent
+
+Component FltDeck
+    Extrusion
+        FaceColor gray50
+        Length 7.5
+        NumVerts 18
+        Data
+            0 1090 0
+            0 1086 36.4
+            0 822 53.1
+            0 728 134
+            0 641 134
+            0 581 118
+            0 139 118
+            0 121 59.1
+            0 7.5 48.5
+            0 0 0
+            0 13.6 -69.8
+            0 48.5 -68.2
+            0 65 -83.4
+            0 164 -94
+            0 176 -118.3
+            0 743 -118.3
+            0 826 -59.1
+            0 1092 -36.4
+    EndExtrusion
+EndComponent
+
+Component FltDeckFt
+    Polygon
+        FaceColor gray40
+        NumVerts 18
+        Data
+            0 1090 0
+            0 1086 36.4
+            0 822 53.1
+            0 728 134
+            0 641 134
+            0 581 118
+            0 139 118
+            0 121 59.1
+            0 7.5 48.5
+            0 0 0
+            0 13.6 -69.8
+            0 48.5 -68.2
+            0 65 -83.4
+            0 164 -94
+            0 176 -118.3
+            0 743 -118.3
+            0 826 -59.1
+            0 1092 -36.4
+    EndPolygon
+EndComponent
+
+Component FltDeckBk
+    Polygon
+        FaceColor gray30
+        Translate 7.5 0 0
+        NumVerts 18
+        Data
+            0 1090 0
+            0 1086 36.4
+            0 822 53.1
+            0 728 134
+            0 641 134
+            0 581 118
+            0 139 118
+            0 121 59.1
+            0 7.5 48.5
+            0 0 0
+            0 13.6 -69.8
+            0 48.5 -68.2
+            0 65 -83.4
+            0 164 -94
+            0 176 -118.3
+            0 743 -118.3
+            0 826 -59.1
+            0 1092 -36.4
+    EndPolygon
+EndComponent
+
+Component FltDeckStr
+    Refer
+        Component FltDeck
+    EndRefer
+    Refer
+        Component FltDeckFt
+    EndRefer
+    Refer
+        Component FltDeckBk
+    EndRefer
+EndComponent
+
+Component Capapult
+    Extrusion
+        FaceColor gray30
+        Length 2
+        NumVerts 4
+        Data
+            0 334 0
+            0 334 7
+            0 0 7
+            0 0 0
+    EndExtrusion
+EndComponent
+
+Component CapapultFt
+    Polygon
+        FaceColor gray40
+        Translate 2 0 0
+        NumVerts 4
+        Data
+            0 334 0
+            0 334 7
+            0 0 7
+            0 0 0
+    EndPolygon
+EndComponent
+
+Component Track
+    Revolve
+        FaceColor gray9
+        NumRevolve 4
+        StartAngle 0
+        EndAngle 359.99
+        NumVerts 2
+        Data
+            0 1 0
+            310 1 0
+    EndRevolve
+EndComponent
+
+Component CapapultStr
+    Refer
+        Component Capapult
+    EndRefer
+    Refer
+        Component CapapultFt
+    EndRefer
+    Refer
+        Rotate 0 0 90
+        Translate 1.5 12 3.5
+        Component Track
+    EndRefer
+EndComponent
+
+Component CapapultAssm
+    Refer
+        Rotate 0 -90 -90
+        Translate 0 0 66
+        Component CapapultStr
+    EndRefer
+EndComponent
+
+Component LandDeckStrip
+    Extrusion
+        FaceColor gray9
+        Length 2
+        NumVerts 4
+        Data
+            0 60 0
+            0 60 8
+            0 0 8
+            0 0 0
+    EndExtrusion
+EndComponent
+
+Component LandDeckStripFt
+    Polygon
+        FaceColor linen
+        Translate 1.9 0 0
+        NumVerts 4
+        Data
+            0 60 0
+            0 60 8
+            0 0 8
+            0 0 0
+    EndPolygon
+EndComponent
+
+Component LandDeckStripStr
+    Refer
+        Component LandDeckStrip
+    EndRefer
+    Refer
+        Component LandDeckStripFt
+    EndRefer
+EndComponent
+
+Component LandDeckStripSubAssm
+    Refer
+        Rotate 0 -90 -90
+        Translate 0 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 66 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 132 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 198 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 264 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 330 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 396 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 462 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 528 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 594 0 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 660 0 66
+        Component LandDeckStripStr
+    EndRefer
+EndComponent
+
+Component LandDeckStripAssm
+    Refer
+        Rotate 0 0 7
+        Translate 20 -45 0
+        Component LandDeckStripSubAssm
+    EndRefer
+    Refer
+        Rotate 0 -90 -83
+        Translate 746 44 66
+        Component LandDeckStripStr
+    EndRefer
+    Refer
+        Rotate 0 0 7
+        Translate 10 10 0
+        Component LandDeckStripSubAssm
+    EndRefer
+EndComponent
+
+Component FltDeckAssm
+    Refer
+        Rotate 0 -90 -90.8
+        Translate 0 14 60
+        Component FltDeckStr
+    EndRefer
+    Refer
+        Rotate 0 0 3
+        Translate 750 -45 0
+        Component CapapultAssm
+    EndRefer
+    Refer
+        Rotate 0 0 3
+        Translate 745 5 0
+        Component CapapultAssm
+    EndRefer
+    Refer
+        Translate 390 100 0
+        Component CapapultAssm
+    EndRefer
+    Refer
+        Rotate 0 0 4
+        Translate 430 60 0
+        Component CapapultAssm
+    EndRefer
+    Refer
+        Component LandDeckStripAssm
+    EndRefer
+EndComponent
+
+Component IslandShell
+    Extrusion
+        FaceColor gray50
+        Length 53
+        NumVerts 8
+        Data
+            0 0 -10
+            0 1 -11
+            0 76 -11
+            0 77 -10
+            0 77 10
+            0 76 11
+            0 1 11
+            0 0 10
+    EndExtrusion
+EndComponent
+
+Component IslandTop
+    Polygon
+        FaceColor gray30
+        Translate 53 0 0
+        NumVerts 8
+        Data
+            0 0 -10
+            0 1 -11
+            0 76 -11
+            0 77 -10
+            0 77 10
+            0 76 11
+            0 1 11
+            0 0 10
+    EndPolygon
+EndComponent
+
+Component IslandStr
+    Refer
+        Component IslandShell
+    EndRefer
+    Refer
+        Component IslandTop
+    EndRefer
+EndComponent
+
+Component FirstLevel
+    Extrusion
+        FaceColor gray40
+        Length 5
+        NumVerts 10
+        Data
+            0 -5 -13
+            0 -2 -16
+            0 79 -16
+            0 82 -13
+            0 82 21
+            0 79 24
+            0 64 24
+            0 59 16
+            0 -2 16
+            0 -5 13
+    EndExtrusion
+EndComponent
+
+Component FirstLevelBot
+    Polygon
+        FaceColor gray
+        NumVerts 10
+        Data
+            0 -5 -13
+            0 -2 -16
+            0 79 -16
+            0 82 -13
+            0 82 21
+            0 79 24
+            0 64 24
+            0 59 16
+            0 -2 16
+            0 -5 13
+    EndPolygon
+EndComponent
+
+Component FirstLevelStr
+    Refer
+        Component FirstLevel
+    EndRefer
+    Refer
+        Component FirstLevelBot
+    EndRefer
+EndComponent
+
+Component ThirdLevel
+    Extrusion
+        FaceColor gray40
+        Length 5
+        NumVerts 10
+        Data
+            0 13 -13
+            0 16 -16
+            0 79 -16
+            0 82 -13
+            0 82 21
+            0 79 24
+            0 64 24
+            0 59 16
+            0 16 16
+            0 13 13
+    EndExtrusion
+EndComponent
+
+Component ThirdLevelBot
+    Polygon
+        FaceColor gray
+        NumVerts 10
+        Data
+            0 13 -13
+            0 16 -16
+            0 79 -16
+            0 82 -13
+            0 82 21
+            0 79 24
+            0 64 24
+            0 59 16
+            0 16 16
+            0 13 13
+    EndPolygon
+EndComponent
+
+Component ThirdLevelStr
+    Refer
+        Component ThirdLevel
+    EndRefer
+    Refer
+        Component ThirdLevelBot
+    EndRefer
+EndComponent
+
+Component ForthLevel
+    Extrusion
+        FaceColor gray40
+        Length 2.5
+        NumVerts 10
+        Data
+            0 13 -13
+            0 16 -16
+            0 79 -16
+            0 82 -13
+            0 82 21
+            0 79 24
+            0 64 24
+            0 59 16
+            0 16 16
+            0 13 13
+    EndExtrusion
+EndComponent
+
+Component ForthLevelTop
+    Polygon
+        FaceColor gray30
+        Translate 2.5 0 0
+        NumVerts 10
+        Data
+            0 13 -13
+            0 16 -16
+            0 79 -16
+            0 82 -13
+            0 82 21
+            0 79 24
+            0 64 24
+            0 59 16
+            0 16 16
+            0 13 13
+    EndPolygon
+EndComponent
+
+Component ForthLevelStr
+    Refer
+        Component ForthLevel
+    EndRefer
+    Refer
+        Component ForthLevelTop
+    EndRefer
+EndComponent
+
+Component Windows
+    Extrusion
+        FaceColor gray9
+        Length 7
+        NumVerts 7
+        Data
+            0 61 -14
+            0 76 -14
+            0 80 -11
+            0 80 20
+            0 78 22
+            0 65 22
+            0 61 16
+    EndExtrusion
+EndComponent
+
+Component WindowsBot
+    Polygon
+        FaceColor gray
+        NumVerts 7
+        Data
+            0 61 -14
+            0 76 -14
+            0 80 -11
+            0 80 20
+            0 78 22
+            0 65 22
+            0 61 16
+    EndPolygon
+EndComponent
+
+Component WindowsStr
+    Refer
+        Component Windows
+    EndRefer
+    Refer
+        Component WindowsBot
+    EndRefer
+EndComponent
+
+Component Mast
+    Revolve
+        FaceColor gray50
+        NumRevolve 6
+        StartAngle 0
+        EndAngle 359.99
+        NumVerts 2
+        Data
+            0 2 0
+            53 1 0
+    EndRevolve
+EndComponent
+
+Component Yard1
+    Revolve
+        FaceColor gray50
+        Rotate 0 -90 0
+        NumRevolve 6
+        StartAngle 0
+        EndAngle 359.99
+        NumVerts 3
+        Data
+            0 0.5 0
+            32.5 1 0
+            65 0.5 0
+    EndRevolve
+EndComponent
+
+Component Yard2
+    Revolve
+        FaceColor gray50
+        Rotate 0 -90 0
+        NumRevolve 6
+        StartAngle 0
+        EndAngle 359.99
+        NumVerts 3
+        Data
+            0 0.4 0
+            27.5 0.8 0
+            55 0.4 0
+    EndRevolve
+EndComponent
+
+Component YardAssm
+    Refer
+        Translate 86 40 -32.5
+        Component Yard1
+    EndRefer
+    Refer
+        Translate 106 40 -27.5
+        Component Yard2
+    EndRefer
+EndComponent
+
+Component IslandAssm
+    Refer
+        Component IslandStr
+    EndRefer
+    Refer
+        Translate 27 0 0
+        Component FirstLevelStr
+    EndRefer
+    Refer
+        Translate 30 0 0
+        Component WindowsStr
+    EndRefer
+    Refer
+        Translate 36 0 0
+        Component FirstLevelStr
+    EndRefer
+    Refer
+        Translate 39 0 0
+        Component WindowsStr
+    EndRefer
+    Refer
+        Translate 45 0 0
+        Component ThirdLevelStr
+    EndRefer
+    Refer
+        Translate 48 0 0
+        Component WindowsStr
+    EndRefer
+    Refer
+        Translate 53 0 0
+        Component ForthLevelStr
+    EndRefer
+    Refer
+        Translate 55 40 0
+        Component Mast
+    EndRefer
+    Refer
+        Component YardAssm
+    EndRefer
+EndComponent
+
+Component Body
+    Translate -500 0 0
+    Refer
+        Component HullAssm
+    EndRefer
+    Refer
+        Component StarbrdSide
+    EndRefer
+    Refer
+        Translate 0 -5 0
+        Component FltDeckAssm
+    EndRefer
+    Refer
+        Rotate 0 -90 -90
+        Translate 318 -91 68
+        Component IslandAssm
+    EndRefer
+EndComponent
+
+Component CARL_VINSON
+    Root
+    Refer
+        Component Body
+		UniformScale .31
+		Translate 0 0 -20
+    EndRefer
+EndComponent
+################################################################################
+#            COPYRIGHT 1995 Analytical Graphics, Inc.                          #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+
+

@@ -1,0 +1,27 @@
+/* XPM */
+static char * ff[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"16 16 5 1 0 0",
+/* colors */
+" 	c #9B9B9B9B9B9B",
+".	c #FFFFFFFFFFFF",
+"X	c #000000008080",
+"o	c #808080808080",
+"O	c #000000000000",
+/* pixels */
+"                ",
+"                ",
+"        .       ",
+"       .Xo      ",
+"      .XXXo     ",
+"     .XXXXXo    ",
+"    .XXX XXXo   ",
+"   .XXX . XXXo  ",
+"  oOOO .Xo OOOo ",
+"      .XXXo     ",
+"     .XXXXXo    ",
+"    .XXXXXXXo   ",
+"   .XXXXXXXXXo  ",
+"  oOOOOOOOOOOOo ",
+"                ",
+"                "};

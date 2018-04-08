@@ -1,0 +1,551 @@
+/*
+* MATLAB Compiler: 5.2 (R2014b)
+* Date: Wed Nov 08 19:00:03 2017
+* Arguments: "-B" "macro_default" "-C" "-W" "dotnet:PNTSim,PNT,3.5,private" "-T"
+* "link:lib" "-d" "D:\Projects\PNTRC\PNTSim\for_testing" "-C" "-v"
+* "class{PNT:D:\Projects\PNTRC\PNTSim.m}" "-a" "D:\Projects\PNTRC\blh2xyz.m" "-a"
+* "D:\Projects\PNTRC\DOPS.m" "-a" "D:\Projects\PNTRC\enu2polar.m" "-a"
+* "D:\Projects\PNTRC\outavailability.m" "-a" "D:\Projects\PNTRC\outavailabilitylocal.m"
+* "-a" "D:\Projects\PNTRC\outavailabilitysnap.m" "-a" "D:\Projects\PNTRC\outGDOP.m" "-a"
+* "D:\Projects\PNTRC\outGDOPlocal.m" "-a" "D:\Projects\PNTRC\outGDOPsnap.m" "-a"
+* "D:\Projects\PNTRC\outHPL.m" "-a" "D:\Projects\PNTRC\outHPLlocal.m" "-a"
+* "D:\Projects\PNTRC\outHPLsnap.m" "-a" "D:\Projects\PNTRC\outPDOP.m" "-a"
+* "D:\Projects\PNTRC\outPDOPlocal.m" "-a" "D:\Projects\PNTRC\outPDOPsnap.m" "-a"
+* "D:\Projects\PNTRC\outsatnum.m" "-a" "D:\Projects\PNTRC\outsatnumaverage.m" "-a"
+* "D:\Projects\PNTRC\outsatnumlocal.m" "-a" "D:\Projects\PNTRC\outsatnumsnap.m" "-a"
+* "D:\Projects\PNTRC\outsattrack.m" "-a" "D:\Projects\PNTRC\outskyplot.m" "-a"
+* "D:\Projects\PNTRC\outsuccessrate.m" "-a" "D:\Projects\PNTRC\outsuccessratelocal.m"
+* "-a" "D:\Projects\PNTRC\outTDOP.m" "-a" "D:\Projects\PNTRC\outTDOPlocal.m" "-a"
+* "D:\Projects\PNTRC\outTDOPsnap.m" "-a" "D:\Projects\PNTRC\outVPL.m" "-a"
+* "D:\Projects\PNTRC\outVPLlocal.m" "-a" "D:\Projects\PNTRC\outVPLsnap.m" "-a"
+* "D:\Projects\PNTRC\plotcontours.m" "-a" "D:\Projects\PNTRC\plotdata.m" "-a"
+* "D:\Projects\PNTRC\plotlines.m" "-a" "D:\Projects\PNTRC\sattrack.m" "-a"
+* "D:\Projects\PNTRC\skyplotgen.m" "-a" "D:\Projects\PNTRC\strSys.m" "-a"
+* "D:\Projects\PNTRC\XPL.m" "-a" "D:\Projects\PNTRC\xyz2blh.m" "-a"
+* "D:\Projects\PNTRC\xyz2enu.m" "-a" "D:\Projects\PNTRC\xyz2polar.m" 
+*/
+using System;
+using System.Reflection;
+using MathWorks.MATLAB.NET.Arrays;
+using MathWorks.MATLAB.NET.Utility;
+
+#if SHARED
+[assembly: System.Reflection.AssemblyKeyFile(@"")]
+#endif
+
+namespace PNTSim
+{
+
+  /// <summary>
+  /// The PNT class provides a CLS compliant, MWArray interface to the MATLAB functions
+  /// contained in the files:
+  /// <newpara></newpara>
+  /// D:\Projects\PNTRC\PNTSim.m
+  /// </summary>
+  /// <remarks>
+  /// @Version 3.5
+  /// </remarks>
+  public class PNT : IDisposable
+  {
+    #region Constructors
+
+    /// <summary internal= "true">
+    /// The static constructor instantiates and initializes the MATLAB Compiler Runtime
+    /// instance.
+    /// </summary>
+    static PNT()
+    {
+      if (MWMCR.MCRAppInitialized)
+      {
+        try
+        {
+          Assembly assembly= Assembly.GetExecutingAssembly();
+
+          string ctfFilePath= assembly.Location;
+
+          int lastDelimiter= ctfFilePath.LastIndexOf(@"\");
+
+          ctfFilePath= ctfFilePath.Remove(lastDelimiter, (ctfFilePath.Length - lastDelimiter));
+
+          mcr= new MWMCR("PNTSim",
+                         ctfFilePath, true);
+        }
+        catch(Exception ex)
+        {
+          ex_ = new Exception("MWArray assembly failed to be initialized", ex);
+        }
+      }
+      else
+      {
+        ex_ = new ApplicationException("MWArray assembly could not be initialized");
+      }
+    }
+
+
+    /// <summary>
+    /// Constructs a new instance of the PNT class.
+    /// </summary>
+    public PNT()
+    {
+      if(ex_ != null)
+      {
+        throw ex_;
+      }
+    }
+
+
+    #endregion Constructors
+
+    #region Finalize
+
+    /// <summary internal= "true">
+    /// Class destructor called by the CLR garbage collector.
+    /// </summary>
+    ~PNT()
+    {
+      Dispose(false);
+    }
+
+
+    /// <summary>
+    /// Frees the native resources associated with this object
+    /// </summary>
+    public void Dispose()
+    {
+      Dispose(true);
+
+      GC.SuppressFinalize(this);
+    }
+
+
+    /// <summary internal= "true">
+    /// Internal dispose function
+    /// </summary>
+    protected virtual void Dispose(bool disposing)
+    {
+      if (!disposed)
+      {
+        disposed= true;
+
+        if (disposing)
+        {
+          // Free managed resources;
+        }
+
+        // Free native resources
+      }
+    }
+
+
+    #endregion Finalize
+
+    #region Methods
+
+    /// <summary>
+    /// Provides a single output, 0-input MWArrayinterface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <returns>An MWArray containing the first output argument.</returns>
+    ///
+    public MWArray PNTSim()
+    {
+      return mcr.EvaluateFunction("PNTSim", new MWArray[]{});
+    }
+
+
+    /// <summary>
+    /// Provides a single output, 1-input MWArrayinterface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="figid">Input argument #1</param>
+    /// <returns>An MWArray containing the first output argument.</returns>
+    ///
+    public MWArray PNTSim(MWArray figid)
+    {
+      return mcr.EvaluateFunction("PNTSim", figid);
+    }
+
+
+    /// <summary>
+    /// Provides a single output, 2-input MWArrayinterface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <returns>An MWArray containing the first output argument.</returns>
+    ///
+    public MWArray PNTSim(MWArray figid, MWArray constid)
+    {
+      return mcr.EvaluateFunction("PNTSim", figid, constid);
+    }
+
+
+    /// <summary>
+    /// Provides a single output, 3-input MWArrayinterface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <param name="typeid">Input argument #3</param>
+    /// <returns>An MWArray containing the first output argument.</returns>
+    ///
+    public MWArray PNTSim(MWArray figid, MWArray constid, MWArray typeid)
+    {
+      return mcr.EvaluateFunction("PNTSim", figid, constid, typeid);
+    }
+
+
+    /// <summary>
+    /// Provides a single output, 4-input MWArrayinterface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <param name="typeid">Input argument #3</param>
+    /// <param name="para1">Input argument #4</param>
+    /// <returns>An MWArray containing the first output argument.</returns>
+    ///
+    public MWArray PNTSim(MWArray figid, MWArray constid, MWArray typeid, MWArray para1)
+    {
+      return mcr.EvaluateFunction("PNTSim", figid, constid, typeid, para1);
+    }
+
+
+    /// <summary>
+    /// Provides a single output, 5-input MWArrayinterface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <param name="typeid">Input argument #3</param>
+    /// <param name="para1">Input argument #4</param>
+    /// <param name="para2">Input argument #5</param>
+    /// <returns>An MWArray containing the first output argument.</returns>
+    ///
+    public MWArray PNTSim(MWArray figid, MWArray constid, MWArray typeid, MWArray para1, 
+                    MWArray para2)
+    {
+      return mcr.EvaluateFunction("PNTSim", figid, constid, typeid, para1, para2);
+    }
+
+
+    /// <summary>
+    /// Provides the standard 0-input MWArray interface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return.</param>
+    /// <returns>An Array of length "numArgsOut" containing the output
+    /// arguments.</returns>
+    ///
+    public MWArray[] PNTSim(int numArgsOut)
+    {
+      return mcr.EvaluateFunction(numArgsOut, "PNTSim", new MWArray[]{});
+    }
+
+
+    /// <summary>
+    /// Provides the standard 1-input MWArray interface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return.</param>
+    /// <param name="figid">Input argument #1</param>
+    /// <returns>An Array of length "numArgsOut" containing the output
+    /// arguments.</returns>
+    ///
+    public MWArray[] PNTSim(int numArgsOut, MWArray figid)
+    {
+      return mcr.EvaluateFunction(numArgsOut, "PNTSim", figid);
+    }
+
+
+    /// <summary>
+    /// Provides the standard 2-input MWArray interface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return.</param>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <returns>An Array of length "numArgsOut" containing the output
+    /// arguments.</returns>
+    ///
+    public MWArray[] PNTSim(int numArgsOut, MWArray figid, MWArray constid)
+    {
+      return mcr.EvaluateFunction(numArgsOut, "PNTSim", figid, constid);
+    }
+
+
+    /// <summary>
+    /// Provides the standard 3-input MWArray interface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return.</param>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <param name="typeid">Input argument #3</param>
+    /// <returns>An Array of length "numArgsOut" containing the output
+    /// arguments.</returns>
+    ///
+    public MWArray[] PNTSim(int numArgsOut, MWArray figid, MWArray constid, MWArray 
+                      typeid)
+    {
+      return mcr.EvaluateFunction(numArgsOut, "PNTSim", figid, constid, typeid);
+    }
+
+
+    /// <summary>
+    /// Provides the standard 4-input MWArray interface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return.</param>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <param name="typeid">Input argument #3</param>
+    /// <param name="para1">Input argument #4</param>
+    /// <returns>An Array of length "numArgsOut" containing the output
+    /// arguments.</returns>
+    ///
+    public MWArray[] PNTSim(int numArgsOut, MWArray figid, MWArray constid, MWArray 
+                      typeid, MWArray para1)
+    {
+      return mcr.EvaluateFunction(numArgsOut, "PNTSim", figid, constid, typeid, para1);
+    }
+
+
+    /// <summary>
+    /// Provides the standard 5-input MWArray interface to the PNTSim MATLAB function.
+    /// </summary>
+    /// <remarks>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return.</param>
+    /// <param name="figid">Input argument #1</param>
+    /// <param name="constid">Input argument #2</param>
+    /// <param name="typeid">Input argument #3</param>
+    /// <param name="para1">Input argument #4</param>
+    /// <param name="para2">Input argument #5</param>
+    /// <returns>An Array of length "numArgsOut" containing the output
+    /// arguments.</returns>
+    ///
+    public MWArray[] PNTSim(int numArgsOut, MWArray figid, MWArray constid, MWArray 
+                      typeid, MWArray para1, MWArray para2)
+    {
+      return mcr.EvaluateFunction(numArgsOut, "PNTSim", figid, constid, typeid, para1, para2);
+    }
+
+
+    /// <summary>
+    /// Provides an interface for the PNTSim function in which the input and output
+    /// arguments are specified as an array of MWArrays.
+    /// </summary>
+    /// <remarks>
+    /// This method will allocate and return by reference the output argument
+    /// array.<newpara></newpara>
+    /// M-Documentation:
+    /// PNTSim:Performance Simulation Platform of PNT augmentation
+    /// with LEO Constellation Argumentation
+    /// Input: figid: figure type
+    /// constid: constellation type
+    /// typeid: figure subtype
+    /// para1: additional param depending on typeid
+    /// para2: additional param depending on typeid
+    /// Output  fp : full file path of result file
+    /// Author: Lei Wang
+    /// Email: Lei.Wang@whu.edu.cn
+    /// 2017/10/31
+    /// </remarks>
+    /// <param name="numArgsOut">The number of output arguments to return</param>
+    /// <param name= "argsOut">Array of MWArray output arguments</param>
+    /// <param name= "argsIn">Array of MWArray input arguments</param>
+    ///
+    public void PNTSim(int numArgsOut, ref MWArray[] argsOut, MWArray[] argsIn)
+    {
+      mcr.EvaluateFunction("PNTSim", numArgsOut, ref argsOut, argsIn);
+    }
+
+
+
+    /// <summary>
+    /// This method will cause a MATLAB figure window to behave as a modal dialog box.
+    /// The method will not return until all the figure windows associated with this
+    /// component have been closed.
+    /// </summary>
+    /// <remarks>
+    /// An application should only call this method when required to keep the
+    /// MATLAB figure window from disappearing.  Other techniques, such as calling
+    /// Console.ReadLine() from the application should be considered where
+    /// possible.</remarks>
+    ///
+    public void WaitForFiguresToDie()
+    {
+      mcr.WaitForFiguresToDie();
+    }
+
+
+
+    #endregion Methods
+
+    #region Class Members
+
+    private static MWMCR mcr= null;
+
+    private static Exception ex_= null;
+
+    private bool disposed= false;
+
+    #endregion Class Members
+  }
+}

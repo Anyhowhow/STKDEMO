@@ -1,0 +1,30 @@
+/* XPM */
+static char *cloud[] = {
+/* width height num_colors chars_per_pixel */
+"    16    16        7            1",
+/* colors */
+". c #ffffff",
+"# c #ffff00",
+"a c #ff9317",
+"b c #9b9b9b",
+"c c #05caff",
+"d c #000080",
+"e c #000000",
+/* pixels */
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbe......ebbb",
+"bbbe......c.cbbb",
+"bbe....c.c.c.ebb",
+"bb..c.ccccccccbb",
+"bb.ccccbbbcccdbb",
+"bbcccdb.##bdddbb",
+"bbedddb.abdddebb",
+"bbbeee.a#eeeebbb",
+"bbbbbb.#bbbbbbbb",
+"bbbbbbb.#bbbbbbb",
+"bbbbbb.#abbbbbbb",
+"bbbbbb#bbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb"
+};

@@ -1,0 +1,28 @@
+/* XPM */
+static char *print16[] = {
+/* width height num_colors chars_per_pixel */
+"    16    16        5            1",
+/* colors */
+". c #000000",
+"# c #808080",
+"a c #ffffff",
+"b c #9b9b9b",
+"c c #ffff00",
+/* pixels */
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbb.........bb",
+"bbbb.aaaaaaaa.bb",
+"bbbb.a.....a.bbb",
+"bbb.aaaaaaaa.bbb",
+"bbb.a.....a....b",
+"bb.aaaaaaaa.b.b.",
+"b..........b.b..",
+".bbbbbbbbbb.b.b.",
+".............bb.",
+".bbbbbb###bb.b.b",
+".bbbbbbcccbb...b",
+".............b.b",
+"b.bbbbbbbbb.b.bb",
+"bb...........bbb"
+};

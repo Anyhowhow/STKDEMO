@@ -1,0 +1,80 @@
+################################################################################
+#            COPYRIGHT 1995-1999 Analytical Graphics, Inc.                     #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################
+#Model Builder:n/a
+#DOM 21 Mar '98_sc
+#Manufacturer/Contractor:n/a 
+#Name:Arm
+#Width:n/a m 
+#Length:n/a m 
+#Height:n/a m 
+#Articulations:(No)
+
+Component Bullseye
+	Revolve
+		BackfaceCullable No
+		FaceColor yellow
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 12
+		NumVerts 2
+		Data
+			0.0 5.10 0.0
+			0.0 0.10 0.0
+	EndRevolve
+	Revolve
+		FaceColor red
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 14
+		NumVerts 2
+		Data
+			0.0 10.10 0.0
+			0.0 5.00 0.0
+	EndRevolve
+	Revolve
+		FaceColor blue
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 16
+		NumVerts 2
+		Data
+			0.0 15.10 0.0
+			0.0 10.00 0.0
+	EndRevolve
+	Revolve
+		FaceColor black
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 18
+		NumVerts 2
+		Data
+			0.0 20.10 0.0
+			0.0 15.00 0.0
+	EndRevolve
+	Revolve
+		FaceColor white
+		StartAngle 0.0
+		EndAngle 359.99
+		NumRevolve 24
+		NumVerts 2
+		Data
+			0.0 25.10 0.0
+			0.0 20.00 0.0
+	EndRevolve
+EndComponent
+
+Component Target
+	Root
+	Refer
+		Rotate 0.0 90.0 0.0
+		Component Bullseye
+	EndRefer
+EndComponent
+################################################################################
+#            COPYRIGHT 1995-1999 Analytical Graphics, Inc.                     #
+#            This data is intended for use with Satellite Tool Kit (TM)        #
+#            products only.  Any other use is expressly forbidden.             #
+################################################################################

@@ -1,0 +1,25 @@
+/* XPM */
+static char * rplay_vo[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"16 16 3 1 0 0",
+/* colors */
+" 	c #9B9B9B9B9B9B",
+".	s iconColor2	m white	c white",
+"X	c #000000008080",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"       .XX.     ",
+"      .XXX.     ",
+"     .XXXX.     ",
+"    .XXXXX.     ",
+"   .XXXXXX.     ",
+"   XXXXXXX.     ",
+"   .XXXXXX.     ",
+"    .XXXXX.     ",
+"     .XXXX.     ",
+"      .XXX.     ",
+"       .XX.     ",
+"                ",
+"                "};
